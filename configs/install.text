@@ -1,5 +1,0 @@
-<VirtualHost *:80>
-        ServerName web.apretaste.loc
-        ServerAdmin salvi@apretaste.org
-        DocumentRoot C:\xampp\htdocs\Apretaste\public
-</VirtualHost>

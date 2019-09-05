@@ -12,7 +12,7 @@ class Config
 	 */
 	public static function all()
 	{
-		if (is_null(self::$cnf)) self::$cnf = parse_ini_file(BASE_PATH . "configs/config.ini", true);
+		if (is_null(self::$cnf)) self::$cnf = parse_ini_file(BASE_PATH . "configs/config.ini", true, INI_SCANNER_RAW);
 		return self::$cnf;
 	}
 
