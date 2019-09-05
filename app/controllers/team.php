@@ -2,11 +2,11 @@
 
 class Team 
 {
-	/**
-	 * main action
-	 */
 	public function main()
 	{
-		echo "hola aqui";
+		// send data to the view
+		$this->view->data->title = "Nuestro equipo";
+		$this->view->setTemplate('main');
+		$this->view->setLayout('main');
 	}
 }

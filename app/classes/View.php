@@ -10,7 +10,7 @@ class View
 	public function __construct($controller, $action)
 	{
 		$this->data = new stdClass();
-		$this->setView("$controller/$action");
+		$this->setTemplate("$controller/$action");
 	}
 
 	/**
@@ -19,7 +19,7 @@ class View
 	 * @author salvipascual
 	 * @param String: view name
 	 */
-	public function setView($name)
+	public function setTemplate($name)
 	{
 		$file = APP_PATH . "views/$name.tpl";
 		if(file_exists($file)) $this->template = $file;

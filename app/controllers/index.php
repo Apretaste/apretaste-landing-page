@@ -2,27 +2,31 @@
 
 class Index 
 {
-	/**
-	 * main action
-	 */
 	public function main()
 	{
-		// get list of people
-		$people = Database::query("SELECT * FROM person LIMIT 10");
+		// get visitors
+		$currentMonth = date("Y-m");
+		$visits = Database::query("
+			SELECT value, dated
+			FROM summary 
+			WHERE label = 'monthly_gross_traffic'
+			AND dated < '$currentMonth'
+			ORDER BY dated DESC
+			LIMIT 5");
 
-		// send values to the view
-		$this->view->data->title = "People";
-		$this->view->data->name = "Salvi";
-		$this->view->data->age = 33;
-		$this->view->data->people = $people;
-		$this->view->setLayout('global');
-	}
+		// format data for the chart
+		$visitors = [];
+		$visitorsPerMonth = 0;
+		foreach($visits as $visit) {
+			if($visitorsPerMonth < $visit->value) $visitorsPerMonth = $visit->value;
+			$visitors[] = ["date"=>$visit->dated, "emails"=>$visit->value];
+		}
 
-	/**
-	 * submit action
-	 */
-	public function submit()
-	{
-		echo "my submit page";
+		// send data to the view
+		$this->view->data->title = "Bienvenido a Apretaste";
+		$this->view->data->visitors = array_reverse($visitors);
+		$this->view->data->visitorsPerMonth = $visitorsPerMonth;
+		$this->view->setTemplate('main');
+		$this->view->setLayout('main');
 	}
 }
