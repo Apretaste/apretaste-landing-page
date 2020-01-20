@@ -58,24 +58,6 @@
 
 <div class="blank-space-divider"></div>
 
-<!-- try it-->
-<section id="tryit" class="tryit tryit-show" style="display:none;">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 text-center">
-				<h2 align="center">Nuestro servicio en vivo</h2>
-				<hr class="small">
-				<div class="videoWrapper">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/92HZ28jlq_g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<div class="blank-space-divider visible-xs tryit-show" style="display:none;"></div>
-<hr class="featurette-divider hidden-xs tryit-show" style="display:none; margin-bottom:40px;">
-
 <!-- First Featurette -->
 <section id="mission" class="mainfeature">
 	<div class="container">
@@ -236,7 +218,7 @@
 			</div>
 
 			<div class="col-xs-12" style="margin-top:15px;">
-				<a class="btn btn-light btn-lg" target="_blank" href="/servicios">Disfruta Nuestros Servicios</a>
+				<a class="btn btn-light btn-lg" target="_blank" href="https://app.apretaste.org">Disfruta Nuestros Servicios</a>
 			</div>
 		</div>
 	</div>
@@ -302,8 +284,8 @@
 					</div>
 					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
-							<a href="http://event.on24.com/wcc/r/1237558/E17397506918D1078847DF56BBA25D2E" target="_blank">
-								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/oreilly.png">
+							<a href="https://www.tomorrowunlocked.com/guardians/defenders-of-digital/" target="_blank">
+								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/kaspersky.png">
 							</a>
 						</div>
 					</div>
@@ -350,6 +332,13 @@
 						</div>
 					</div>
 
+					<div class="col-md-3 col-sm-4 col-xs-6 showmorepress">
+						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
+							<a href="http://event.on24.com/wcc/r/1237558/E17397506918D1078847DF56BBA25D2E" target="_blank">
+								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/oreilly.png">
+							</a>
+						</div>
+					</div>
 					<div class="col-md-3 col-sm-4 col-xs-6 showmorepress">
 						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
 							<a href="http://www.elmundo.es/economia/2016/02/15/56c192b0268e3ef5758b45bd.html" target="_blank">
@@ -503,7 +492,7 @@
 
 			<div class="col-sm-12 text-center">
 				<a href="https://play.google.com/store/apps/details?id=com.apretaste.apretaste" target="_blank" class="btn btn-lg btn-light btn-fized-size"><i class="fa fa-android"></i> Play Store</a>
-				<a class="btn btn-lg btn-dark btn-fized-size" target="_blank" href="https://apretaste.org/servicios"><i class="fa fa-chrome"></i> Modo Web</a>
+				<a class="btn btn-lg btn-dark btn-fized-size" target="_blank" href="https://app.apretaste.org"><i class="fa fa-chrome"></i> Modo Web</a>
 
 				<p style="margin-top:30px;">
 					Otras apps<br>
@@ -566,7 +555,6 @@
 	$(function() {
 		$('a[href*=#]:not([href=#])').click(function() {
 			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
 				var target = $(this.hash);
 				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 				if (target.length) {
@@ -577,13 +565,6 @@
 				}
 			}
 		});
-
 		$('.tooltip-image').tooltip();
-		checkVideo();
 	});
-
-	function checkVideo(){
-		$('#youtubevideo').attr('src', 'https://www.youtube.com/watch?v=92HZ28jlq_g');
-		$('.tryit-show').slideDown('fast');
-	}
 </script>

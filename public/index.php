@@ -18,9 +18,6 @@ if(!file_exists(APP_PATH . "controllers/$controller.php")) {
 	die("404 error");
 }
 
-// add the vendor autload file
-// include "vendor/autoload.php";
-
 // incluce all supporting classes
 foreach (glob(APP_PATH . "classes/*.php") as $filename) {
 	include $filename; 
