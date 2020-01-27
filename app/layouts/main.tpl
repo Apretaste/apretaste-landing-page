@@ -56,6 +56,7 @@
 <body>
 	<!-- Navigation -->
 	<a id="menu-download" href="/#download" class="btn btn-dark btn-lg toggle">Descargar</a>
+	<a id="menu-donate" href="/donate" class="btn btn-dark btn-lg toggle">Donar</a>
 	<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
 
 	<nav id="sidebar-wrapper">

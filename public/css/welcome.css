@@ -459,6 +459,13 @@ footer {
 	z-index: 1;
 	position: fixed;
 	top: 0;
+	right: 142px;
+}
+
+#menu-donate{
+	z-index: 1;
+	position: fixed;
+	top: 0;
 	right: 55px;
 }
 

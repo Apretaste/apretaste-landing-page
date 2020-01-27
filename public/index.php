@@ -1,5 +1,8 @@
 <?php
 
+use Framework\View;
+use Framework\Database;
+
 // capture all errors
 set_error_handler(function($number, $string, $file, $line) {
 	throw new Exception($string);
@@ -10,17 +13,15 @@ $controller = isset($_GET['c']) ? $_GET['c'] : "index";
 $action = isset($_GET['a']) ? $_GET['a'] : "main";
 
 // get global 
-define('BASE_PATH', str_replace('public', '', dirname(__FILE__)));
+define('BASE_PATH', dirname(__DIR__) . DIRECTORY_SEPARATOR);
 define('APP_PATH', BASE_PATH . 'app/'); 
+
+// add the autoload
+include BASE_PATH . "vendor/autoload.php";
 
 // show 404 error
 if(!file_exists(APP_PATH . "controllers/$controller.php")) {
 	die("404 error");
-}
-
-// incluce all supporting classes
-foreach (glob(APP_PATH . "classes/*.php") as $filename) {
-	include $filename; 
 }
 
 // create a new Controller

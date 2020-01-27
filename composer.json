@@ -1,12 +1,11 @@
 {
-    "name": "nerdy/framework",
-    "authors": [
-        {
-            "name": "Salvi Pascual",
-            "email": "salvi@techlaunch.io"
-        }
-    ],
-    "require": {
-        "halfpastfouram/phpchartjs": "^1.0"
-    }
+	"autoload": {
+		"psr-4": {
+			"Apretaste\\": "classes/Apretaste/",
+			"Framework\\": "classes/Framework/"
+		}
+	},
+	"require": {
+		"paypal/paypal-checkout-sdk": "1.0.1"
+	}
 }
