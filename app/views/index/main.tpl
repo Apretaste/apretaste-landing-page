@@ -453,14 +453,14 @@
 					<div class="img-team col-md-4 col-sm-4 col-xs-6">
 						<img class="img-circle team-member" src="/images/team/salvi.jpg"/>
 						<h4>Salvi Pascual</h4>
-						<p>Director Ejecutivo<br/><a href="mailto:salvi@apretaste.org">salvi@apretaste.org</a></p>
+						<p>Executive Director<br/><a href="mailto:salvi@apretaste.org">salvi@apretaste.org</a></p>
 						<img height="21" src="/images/flags/us.png"/>&nbsp;<a href="https://www.linkedin.com/in/salvipascual/" target="_blank"><img height="23" src="/images/linkedin.png"/></a>
 					</div>
 					<div class="img-team col-md-4 col-sm-4 col-xs-6">
-						<img class="img-circle team-member" src="/images/team/juan.jpg"/>
-						<h4>Juan Vílchez</h4>
-						<p>Director de Marketing<br/><a href="mailto:juan@apretaste.org">juan@apretaste.org</a></p>
-						<img height="21" src="/images/flags/co.png"/>&nbsp;<a href="https://www.linkedin.com/in/jdvilchez/" target="_blank"><img height="23"src="/images/linkedin.png"/></a>
+						<img class="img-circle team-member" src="/images/team/andrea.jpg"/>
+						<h4>Andrea Loewenthal</h4>
+						<p>Graphic Designer<br/><a href="mailto:andrea@apretaste.org">andrea@apretaste.org</a></p>
+						<img height="21" src="/images/flags/ve.png"/>&nbsp;<a href="https://www.linkedin.com/in/andrea-l-b697b1184/" target="_blank"><img height="23"src="/images/linkedin.png"/></a>
 					</div>
 					<div class="img-team col-md-4 col-sm-4 col-xs-12">
 						<img class="img-circle team-member" src="/images/team/ricardo.jpg"/>
