@@ -3,6 +3,10 @@
 use Framework\View;
 use Framework\Database;
 
+// localize timezone and dates
+setlocale(LC_TIME, "es_ES", 'Spanish_Spain', 'Spanish');
+date_default_timezone_set('America/Havana');
+
 // capture all errors
 set_error_handler(function($number, $string, $file, $line) {
 	throw new Exception($string);
@@ -15,6 +19,7 @@ $action = isset($_GET['a']) ? $_GET['a'] : "main";
 // get global 
 define('BASE_PATH', dirname(__DIR__) . DIRECTORY_SEPARATOR);
 define('APP_PATH', BASE_PATH . 'app/'); 
+define('TEMP_PATH', BASE_PATH . 'tmp/');
 
 // add the autoload
 include BASE_PATH . "vendor/autoload.php";

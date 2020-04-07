@@ -1,5 +1,7 @@
-classes/
+tmp/
+logs/
 vendor/
+classes/
 configs/config.ini
 composer.lock
 .idea

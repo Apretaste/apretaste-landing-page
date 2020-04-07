@@ -73,7 +73,7 @@
 			<li><a href="/#download">Descargar</a></li>
 			<li><a href="/#contact">Contáctanos</a></li>
 			<li><a href="http://cubacrece.com" target="_blank">Eventos <i class="fa fa-external-link"></i></i></a></li>
-			<li><a href="http://apretaste.blog" target="_blank">Blog <i class="fa fa-bullhorn"></i></a></li>
+			<li><a href="https://anuncios.apretaste.org" target="_blank">Anúnciate <i class="fa fa-bullhorn"></i></a></li>
 		</ul>
 	</nav>
 

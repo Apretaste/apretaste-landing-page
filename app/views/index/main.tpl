@@ -453,26 +453,37 @@
 					<div class="img-team col-md-4 col-sm-4 col-xs-6">
 						<img class="img-circle team-member" src="/images/team/salvi.jpg"/>
 						<h4>Salvi Pascual</h4>
-						<p>Executive Director<br/><a href="mailto:salvi@apretaste.org">salvi@apretaste.org</a></p>
-						<img height="21" src="/images/flags/us.png"/>&nbsp;<a href="https://www.linkedin.com/in/salvipascual/" target="_blank"><img height="23" src="/images/linkedin.png"/></a>
+						<p>Executive Director</p>
+						<a href="mailto:salvi@apretaste.org" class="team-icon" target="_blank"><i class="fa fa-envelope"></i></a>
+						<a href="https://www.linkedin.com/in/salvipascual/" class="team-icon" target="_blank"><i class="fa fa-linkedin"></i></a>
 					</div>
 					<div class="img-team col-md-4 col-sm-4 col-xs-6">
-						<img class="img-circle team-member" src="/images/team/andrea.jpg"/>
-						<h4>Andrea Loewenthal</h4>
-						<p>Graphic Designer<br/><a href="mailto:andrea@apretaste.org">andrea@apretaste.org</a></p>
-						<img height="21" src="/images/flags/ve.png"/>&nbsp;<a href="https://www.linkedin.com/in/andrea-l-b697b1184/" target="_blank"><img height="23"src="/images/linkedin.png"/></a>
+						<img class="img-circle team-member" src="/images/team/kuma.jpg"/>
+						<h4>Kuma Hacker</h4>
+						<p>Back-End Developer</p>
+						<a href="mailto:kuma@apretaste.org" class="team-icon" target="_blank"><i class="fa fa-envelope"></i></a>
+						<a href="https://www.linkedin.com/in/kumahacker/" class="team-icon" target="_blank"><i class="fa fa-linkedin"></i></a>
 					</div>
-					<div class="img-team col-md-4 col-sm-4 col-xs-12">
+					<div class="img-team col-md-4 col-sm-4 col-xs-6">
 						<img class="img-circle team-member" src="/images/team/ricardo.jpg"/>
 						<h4>Ricardo Jimenez</h4>
-						<p>Lead Developer<br/><a href="mailto:ricardo@apretaste.org">ricardo@apretaste.org</a></p>
-						<img height="21" src="/images/flags/co.png"/>&nbsp;<a href="https://www.linkedin.com/in/ricardo-jimenez-31a59512b" target="_blank"><img height="23" src="/images/linkedin.png"/></a>
+						<p>Android Developer<br/></p>
+						<a href="mailto:ricardo@apretaste.org" class="team-icon" target="_blank"><i class="fa fa-envelope"></i></a>
+						<a href="https://www.linkedin.com/in/ricardo-jimenez-31a59512b" class="team-icon" target="_blank"><i class="fa fa-linkedin"></i></a>
 					</div>
-				</div>
-
-				<div class="row" style="margin: 20px; padding-bottom: 30px;">
-					<div class="col-xs-12 text-center">
-						<a class="btn btn-dark btn-lg" href="/team">Más Sobre Nosotros</a>
+					<div class="img-team col-md-6 col-sm-6 col-xs-6">
+						<img class="img-circle team-member" src="/images/team/carlos.jpg"/>
+						<h4>Carlos Acosta</h4>
+						<p>iOS Developer</p>
+						<a href="mailto:carlos@apretaste.org" class="team-icon" target="_blank"><i class="fa fa-envelope"></i></a>
+						<a href="https://www.linkedin.com/in/cjamcu/" class="team-icon" target="_blank"><i class="fa fa-linkedin"></i></a>
+					</div>
+					<div class="img-team col-md-6 col-sm-6 col-xs-12">
+						<img class="img-circle team-member" src="/images/team/edgar.jpg"/>
+						<h4>Edgar Hernández</h4>
+						<p>Representante de Soporte</p>
+						<a href="mailto:edgar@apretaste.org" class="team-icon" target="_blank"><i class="fa fa-envelope"></i></a>
+						<a href="https://www.linkedin.com/in/ed188/" class="team-icon" target="_blank"><i class="fa fa-linkedin"></i></a>
 					</div>
 				</div>
 			</div>
@@ -492,14 +503,8 @@
 
 			<div class="col-sm-12 text-center">
 				<a href="https://play.google.com/store/apps/details?id=com.apretaste.apretaste" target="_blank" class="btn btn-lg btn-light btn-fized-size"><i class="fa fa-android"></i> Play Store</a>
+				<a href="https://apps.apple.com/us/app/apretaste-navega-libremente/id1488232603" target="_blank" class="btn btn-lg btn-light btn-fized-size"><i class="fa fa-apple"></i> Apple Store</a>
 				<a class="btn btn-lg btn-dark btn-fized-size" target="_blank" href="https://app.apretaste.org"><i class="fa fa-chrome"></i> Modo Web</a>
-
-				<p style="margin-top:30px;">
-					Otras apps<br>
-					<a class="whitelink" href="http://piropazo.com" target="_blank">Piropazo</a> | 
-					<a class="whitelink" href="http://pizarra.apretaste.org" target="_blank">Pizarra</a> | 
-					<a class="whitelink" href="http://escuela.apretaste.org" target="_blank">Escuela</a> 
-				</p>
 			</div>
 		</div>
 	</div>
@@ -526,6 +531,7 @@
 					<li><a href="https://twitter.com/apretaste" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a></li>
 					<li><a href="https://www.youtube.com/apretaste" target="_blank"><i class="fa fa-youtube fa-fw fa-3x"></i></a></li>
 					<li><a href="https://www.instagram.com/apretaste" target="_blank"><i class="fa fa-instagram fa-fw fa-3x"></i></a></li>
+					<li><a href="https://www.linkedin.com/company/apretaste" target="_blank"><i class="fa fa-linkedin fa-fw fa-3x"></i></a></li>
 				</ul>
 			</div>
 		</div>

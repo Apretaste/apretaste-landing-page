@@ -229,8 +229,13 @@ hr.small {
 	opacity: 0.8;
 }
 
+.img-team {
+	margin-bottom: 25px;
+}
+
 .img-team p{
 	line-height: 18px;
+	margin-bottom: 5px;
 }
 
 .img-team h4{
@@ -471,6 +476,11 @@ footer {
 
 .team-member{
 	width: 120px;
+}
+
+.team-icon {
+	color: #333333;
+	margin: 0px 3px;
 }
 
 .contrast{

@@ -8,13 +8,13 @@ class Index
 	{
 		// get visitors
 		$currentMonth = date("Y-m");
-		$visits = Database::query("
+		$visits = Database::queryCache("
 			SELECT value, dated
 			FROM summary 
 			WHERE label = 'monthly_gross_traffic'
 			AND dated < '$currentMonth'
 			ORDER BY dated DESC
-			LIMIT 5");
+			LIMIT 5", Database::CACHE_DAY);
 
 		// format data for the chart
 		$visitors = [];
