@@ -277,6 +277,28 @@
 				<div class="row">
 					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
+							<a href="https://es.sports.yahoo.com/noticias/aplicaci%C3%B3n-cuba-alternativa-datos-mundiales-000408241.html" target="_blank">
+								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/yahoo.png">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
+							<a href="https://www.latribuna.hn/2020/04/14/aplicacion-lleva-a-cuba-como-alternativa-datos-mundiales-sobre-el-covid-19/" target="_blank">
+								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/latribuna.png">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
+							<a href="https://www.lavanguardia.com/vida/20200414/48486961785/aplicacion-lleva-a-cuba-como-alternativa-datos-mundiales-sobre-el-covid-19.html" target="_blank">
+								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/lavanguardia.png">
+							</a>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-4 col-xs-6">
+						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
 							<a href="http://www.miamiherald.com/news/business/technology/article65196697.html" target="_blank">
 								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/miamiherald.png">
 							</a>
@@ -305,8 +327,8 @@
 					</div>
 					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
-							<a href="http://www.miaminewtimes.com/news/miami-company-helps-cubans-access-the-internet-through-their-email-8351534" target="_blank">
-								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/newtimesmiami.png">
+							<a href="http://www.elmundo.es/economia/2016/02/15/56c192b0268e3ef5758b45bd.html" target="_blank">
+								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/elmundo.png">
 							</a>
 						</div>
 					</div>
@@ -319,8 +341,8 @@
 					</div>
 					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
-							<a href="http://www.elnuevoherald.com/noticias/mundo/america-latina/cuba-es/article64126537.html" target="_blank">
-								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/nuevoherald.png">
+							<a href="http://www.diariolasamericas.com/4842_locales/3628715_organizan-encuentro-programadores-miami-internet-cuba.html" target="_blank">
+								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/diariolasamericas.png">
 							</a>
 						</div>
 					</div>
@@ -331,8 +353,7 @@
 							</a>
 						</div>
 					</div>
-
-					<div class="col-md-3 col-sm-4 col-xs-6 showmorepress">
+					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
 							<a href="http://event.on24.com/wcc/r/1237558/E17397506918D1078847DF56BBA25D2E" target="_blank">
 								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/oreilly.png">
@@ -341,8 +362,8 @@
 					</div>
 					<div class="col-md-3 col-sm-4 col-xs-6 showmorepress">
 						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
-							<a href="http://www.elmundo.es/economia/2016/02/15/56c192b0268e3ef5758b45bd.html" target="_blank">
-								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/elmundo.png">
+							<a href="http://www.miaminewtimes.com/news/miami-company-helps-cubans-access-the-internet-through-their-email-8351534" target="_blank">
+								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/newtimesmiami.png">
 							</a>
 						</div>
 					</div>
@@ -362,15 +383,8 @@
 					</div>
 					<div class="col-md-3 col-sm-4 col-xs-6 showmorepress">
 						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
-							<a href="http://www.diariolasamericas.com/4842_locales/3628715_organizan-encuentro-programadores-miami-internet-cuba.html" target="_blank">
-								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/diariolasamericas.png">
-							</a>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-4 col-xs-6 showmorepress">
-						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
-							<a href="http://www.14ymedio.com/blogs/generacion_y/Apretaste_7_1537716214.html" target="_blank">
-								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/14ymedio.png">
+							<a href="http://www.elnuevoherald.com/noticias/mundo/america-latina/cuba-es/article64126537.html" target="_blank">
+								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/nuevoherald.png">
 							</a>
 						</div>
 					</div>
