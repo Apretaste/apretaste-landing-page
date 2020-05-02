@@ -485,19 +485,26 @@
 						<a href="mailto:ricardo@apretaste.org" class="team-icon" target="_blank"><i class="fa fa-envelope"></i></a>
 						<a href="https://www.linkedin.com/in/ricardo-jimenez-31a59512b" class="team-icon" target="_blank"><i class="fa fa-linkedin"></i></a>
 					</div>
-					<div class="img-team col-md-6 col-sm-6 col-xs-6">
+					<div class="img-team col-md-4 col-sm-4 col-xs-6">
 						<img class="img-circle team-member" src="/images/team/carlos.jpg"/>
 						<h4>Carlos Acosta</h4>
 						<p>iOS Developer</p>
 						<a href="mailto:carlos@apretaste.org" class="team-icon" target="_blank"><i class="fa fa-envelope"></i></a>
 						<a href="https://www.linkedin.com/in/cjamcu/" class="team-icon" target="_blank"><i class="fa fa-linkedin"></i></a>
 					</div>
-					<div class="img-team col-md-6 col-sm-6 col-xs-12">
+					<div class="img-team col-md-4 col-sm-4 col-xs-6">
 						<img class="img-circle team-member" src="/images/team/edgar.jpg"/>
 						<h4>Edgar Hernández</h4>
 						<p>Representante de Soporte</p>
 						<a href="mailto:edgar@apretaste.org" class="team-icon" target="_blank"><i class="fa fa-envelope"></i></a>
 						<a href="https://www.linkedin.com/in/ed188/" class="team-icon" target="_blank"><i class="fa fa-linkedin"></i></a>
+					</div>
+					<div class="img-team col-md-4 col-sm-4 col-xs-6">
+						<img class="img-circle team-member" src="/images/team/orisbel.jpg"/>
+						<h4>Orisbel Ríos</h4>
+						<p>Experto en Marketing</p>
+						<a href="mailto:orisbel@apretaste.org" class="team-icon" target="_blank"><i class="fa fa-envelope"></i></a>
+						<a href="https://www.linkedin.com/in/orisbel-rios-gonz%C3%A1lez-085a85151/" class="team-icon" target="_blank"><i class="fa fa-linkedin"></i></a>
 					</div>
 				</div>
 			</div>

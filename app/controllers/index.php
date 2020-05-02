@@ -6,22 +6,20 @@ class Index
 {
 	public function main()
 	{
-		// get visitors
-		$currentMonth = date("Y-m");
-		$visits = Database::queryCache("
-			SELECT value, dated
-			FROM summary 
-			WHERE label = 'monthly_gross_traffic'
-			AND dated < '$currentMonth'
-			ORDER BY dated DESC
-			LIMIT 5", Database::CACHE_DAY);
+		// get the visitors
+		$summary = Database::queryCache("
+			SELECT DATE_FORMAT(inserted, '%Y-%m') AS month, SUM(visitors) AS visits
+			FROM delivery_summary 
+			WHERE inserted < CURRENT_DATE
+			GROUP BY month
+			LIMIT 5", Database::CACHE_YEAR);
 
 		// format data for the chart
 		$visitors = [];
 		$visitorsPerMonth = 0;
-		foreach($visits as $visit) {
-			if($visitorsPerMonth < $visit->value) $visitorsPerMonth = $visit->value;
-			$visitors[] = ["date"=>$visit->dated, "emails"=>$visit->value];
+		foreach($summary as $sm) {
+			if($visitorsPerMonth < $sm->visits) $visitorsPerMonth = $sm->visits;
+			$visitors[] = ["date"=> strftime('%B %Y', strtotime($sm->month)), "emails"=>$sm->visits];
 		}
 
 		// send data to the view
