@@ -502,7 +502,7 @@
 					<div class="img-team col-md-4 col-sm-4 col-xs-6">
 						<img class="img-circle team-member" src="/images/team/orisbel.jpg"/>
 						<h4>Orisbel Ríos</h4>
-						<p>Experto en Marketing</p>
+						<p>Experto en Comunicaciones</p>
 						<a href="mailto:orisbel@apretaste.org" class="team-icon" target="_blank"><i class="fa fa-envelope"></i></a>
 						<a href="https://www.linkedin.com/in/orisbel-rios-gonz%C3%A1lez-085a85151/" class="team-icon" target="_blank"><i class="fa fa-linkedin"></i></a>
 					</div>
