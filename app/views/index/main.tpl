@@ -397,7 +397,7 @@
 					</div>
 					<div class="col-md-3 col-sm-4 col-xs-6 showmorepress">
 						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
-							<a href="https://www.cubanet.org/noticias/cubano-organiza-hackathon-en-miami-por-mejorar-acceso-a-internet-en-la-isla/" target="_blank">
+							<a href="https://www.cubanet.org/tecnologia-2/cuba-apretaste-lanza-version-6-mas-rapida-novedosa-y-economica/" target="_blank">
 								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/cubanet.png">
 							</a>
 						</div>
@@ -405,7 +405,7 @@
 					<div class="col-md-3 col-sm-4 col-xs-6 showmorepress">
 						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
 							<a href="http://www.14ymedio.com/blogs/generacion_y/Apretaste_7_1537716214.html" target="_blank">
-								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/generaciony.png">
+								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/14ymedio.png">
 							</a>
 						</div>
 					</div>
@@ -425,8 +425,8 @@
 					</div>
 					<div class="col-md-3 col-sm-4 col-xs-6 showmorepress">
 						<div class="portfolio-item tooltip-image" data-toggle="tooltip" data-placement="top">
-							<a href="http://martinoticias.org/archive/one_thousand_800_online/14/97/129.html" target="_blank">
-								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/1800online.png">
+							<a href="https://adncuba.com/noticias-de-cuba/tecnologia/apretaste-lanza-version-6-mas-rapida-novedosa-y-economica-para-los" target="_blank">
+								<img class="img-portfolio img-responsive img-thumbnail" src="/images/media/adncuba.png">
 							</a>
 						</div>
 					</div>
