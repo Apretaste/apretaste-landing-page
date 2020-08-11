@@ -120,7 +120,7 @@
 				<div class="row">
 					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="service-item">
-							<a href="/pizarra" target="_blank" class="iconlink">
+							<a href="https://app.apretaste.org/" target="_blank" class="iconlink">
 								<span class="fa-stack fa-4x">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-users fa-stack-1x text-success"></i>
@@ -132,7 +132,7 @@
 					</div>
 					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="service-item">
-							<a href="/vuelos" target="_blank" class="iconlink">
+							<a href="https://app.apretaste.org/" target="_blank" class="iconlink">
 								<span class="fa-stack fa-4x">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-plane fa-stack-1x text-success"></i>
@@ -156,7 +156,7 @@
 					</div>
 					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="service-item">
-							<a href="/google" target="_blank" class="iconlink">
+							<a href="https://app.apretaste.org/" target="_blank" class="iconlink">
 								<span class="fa-stack fa-4x">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-globe fa-stack-1x text-success"></i>
@@ -168,7 +168,7 @@
 					</div>
 					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="service-item">
-							<a href="/mapas" target="_blank" class="iconlink">
+							<a href="https://app.apretaste.org/" target="_blank" class="iconlink">
 								<span class="fa-stack fa-4x">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-compass fa-stack-1x text-success"></i>
@@ -180,7 +180,7 @@
 					</div>
 					<div class="col-md-3 col-sm-4 col-xs-6">
 						<div class="service-item">
-							<a href="/wikipedia" target="_blank" class="iconlink">
+							<a href="https://app.apretaste.org/" target="_blank" class="iconlink">
 								<span class="fa-stack fa-4x">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-book fa-stack-1x text-success"></i>
@@ -192,7 +192,7 @@
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-6">
 						<div class="service-item">
-							<a href="/escuela" target="_blank" class="iconlink">
+							<a href="https://app.apretaste.org/" target="_blank" class="iconlink">
 								<span class="fa-stack fa-4x">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-graduation-cap fa-stack-1x text-success"></i>
@@ -204,7 +204,7 @@
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-6">
 						<div class="service-item">
-							<a href="/traductor" target="_blank" class="iconlink">
+							<a href="https://app.apretaste.org/" target="_blank" class="iconlink">
 								<span class="fa-stack fa-4x">
 									<i class="fa fa-circle fa-stack-2x"></i>
 									<i class="fa fa-language fa-stack-1x text-success"></i>
