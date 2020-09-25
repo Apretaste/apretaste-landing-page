@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<!-- Metas -->
-		<title><?= $title ?></title>
+		<title>Apretaste: <?= $title ?></title>
 		<link rel="canonical" href="https://www.apretaste.org">
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="Apretaste es la app social de todos los cubanos, para conocer e intercambiar con miles de personas, decir lo que piensas libremente, participar en sorteos, concursos y entretenimiento constante, buscar pareja, leer las noticias diariamente y más. Todo gratuitamente y con mínimo consumo de datos móviles.">
-		<meta name="keywords" content="TODO">
+		<meta name="keywords" content="apretaste, cuba, red social cuba, chat cuba, apretaste cuba, ">
 		<meta name="author" content="Salvi Pascual">
 
 		<!-- Icons -->
@@ -44,6 +44,77 @@
 		<!-- Content -->
 		<div id="wrapper" class="divided">
 			{TEMPLATE}
+
+			<!-- Footer -->
+			<footer class="wrapper style1 align-center">
+				<div class="inner">
+					<div class="items style1 medium">
+						<!-- contact -->
+						<section>
+							<h3>¿Necesitas ayuda?</h3>
+							<ul class="actions stacked">
+								<li>
+									<span class="icon brands style1 fa-whatsapp"></span>
+									<span class="icon solid style1 fa-phone"></span>
+									<span class="label padding-left-tiny">+1 (305) 457-1656
+								</li>
+								<li>
+									<span class="icon solid style1 fa-envelope"></span>
+									<a href="mailto:salvi@apretaste.org" target="_blank">
+										<span class="label padding-left-tiny">salvi@apretaste.org</span>
+									</a>
+								</li>
+							</ul>
+						</section>
+
+						<!-- Links -->
+						<section>
+							<ul class="actions stacked">
+								<li>
+									<span class="icon solid style1 fa-hand-holding-usd"></span>
+									<a href="/donate" target="_blank">
+										<span class="label padding-left-tiny">Ayúdanos donando</span>
+									</a>
+								</li>
+								<li>
+									<span class="icon solid style1 fa-code"></span>
+									<a href="http://cubacrece.com" target="_blank">
+										<span class="label padding-left-tiny">Únete a Cuba Crece</span>
+									</a>
+								</li>
+								<li>
+									<span class="icon solid style1 fa-ad"></span>
+									<a href="https://anuncios.apretaste.org" target="_blank">
+										<span class="label padding-left-tiny">Anúnciate en Apretaste</span>
+									</a>
+								</li>
+								<li>
+									<span class="icon solid style1 fa-user-secret"></span>
+									<a href="/privacy">
+										<span class="label padding-left-tiny">Póliza de seguridad</span>
+									</a>
+								</li>
+							</ul>
+						</section>
+
+						<!-- social -->
+						<section>
+							<h3>¡Búscanos en las redes!</h3>
+							<ul class="icons">
+								<?php foreach ($socialLinks as $item) { ?>
+									<li class="fix-items-alignment">
+										<a href="<?= $item->link ?>" target="_blank" class="icon brands style2 <?= $item->icon ?>">
+											<span class="label"><?= $item->caption ?></span>
+										</a>
+									</li>
+								<?php } ?>
+							</ul>
+						</section>
+					</div>
+					<p class="small">A COPY OF THE OFFICIAL REGISTRATION AND FINANCIAL INFORMATION MAY BE OBTAINED FROM THE DIVISION OF CONSUMER SERVICES BY CALLING TOLL-FREE WITHIN THE STATE 1-800-HELPFLA, OR VIA THE INTERNET AT WWW.800HELPFLA.COM. REGISTRATION DOES NOT IMPLY ENDORSEMENT, APPROVAL, OR RECOMMENDATION BY THE STATE.</p>
+					<p>&copy; <?= date('Y')?>. Agora Cuba Inc.</p>
+				</div>
+			</footer>
 		</div>
 
 		<!-- Scripts -->

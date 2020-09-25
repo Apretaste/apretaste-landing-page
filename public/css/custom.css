@@ -4,13 +4,7 @@
 	background-size: cover;
 }
 
-#main .logo {
-	width: 300px;
-}
-
-.no-margin-bottom {
-	margin-bottom: 0px;
-}
+/* HELPERS */
 
 .small {
 	font-size: smaller;
@@ -18,4 +12,22 @@
 
 .fix-items-alignment {
 	padding: 0px 12px 12px 0px !important;
+}
+
+/* SPACING */
+
+.no-margin-bottom {
+	margin-bottom: 0px;
+}
+
+.no-padding-bottom {
+	padding-bottom: 0px !important;
+}
+
+.margin-bottom-medium {
+	margin-bottom: 64px;
+}
+
+.padding-left-tiny {
+	padding-left: 5px;
 }
