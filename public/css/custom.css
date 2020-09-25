@@ -1,0 +1,21 @@
+#main {
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#main .logo {
+	width: 300px;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0px;
+}
+
+.small {
+	font-size: smaller;
+}
+
+.fix-items-alignment {
+	padding: 0px 12px 12px 0px !important;
+}
