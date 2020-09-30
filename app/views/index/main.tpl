@@ -27,7 +27,7 @@
 		<?php foreach ($screenshots as $item) { ?>
 			<article>
 				<div class="image">
-					<img src="images/gallery/thumbs/<?= $item->image ?>" alt="" />
+					<img src="images/screens/<?= $item->image ?>" alt="" />
 				</div>
 				<div class="caption">
 					<h3><?= $item->title ?></h3>
@@ -88,7 +88,7 @@
 
 	</div>
 	<div class="image">
-		<img src="images/spotlight02.jpg" alt="" />
+		<img src="images/apretin.png" alt="" />
 	</div>
 </section>
 
@@ -99,23 +99,13 @@
 		<h2>¿Qué dice la gente?</h2>
 		<p>Desde que nació nuestra app varios años atrás, tenemos miles de usuarios satisfechos y cuantiosa prensa positiva. Estamos orgullosos de ofrecerte una mirada a los que otros hablan de Apretaste.</p>
 
-		<!-- reviews -->
-		<div class="items style1 small onscroll-fade-in">
-			<section>
-				<h4>@maria</h4>
-				<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
-				<p>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibusa</p>
-			</section>
-			<section>
-				<h4>@pepito</h4>
-				<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
-				<p>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibusa</p>
-			</section>
-			<section>
-				<h4>@joseito</h4>
-				<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
-				<p>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibusa</p>
-			</section>
+		<!-- random review -->
+		<div class="review align-left">
+			<span class="image left" style="background-color:<?= $userReview->avatarColor ?>">
+				<img src="images/avatars/<?= $userReview->avatar ?>.png" alt="">
+			</span>
+			<h2><?= $userReview->username ?></h2>
+			<p><?= $userReview->text ?></p>
 		</div>
 	</div>
 
@@ -149,7 +139,9 @@
 						<p class="no-margin-bottom"><?= $item->position ?></p>
 						<ul class="icons">
 							<li><a href="mailto:<?= $item->email ?>" target="_blank" class="icon solid style1 fa-envelope"><span class="label">Twitter</span></a></li>
-							<li><a href="<?= $item->linkedin ?>" target="_blank" class="icon brands style1 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<?php if($item->linkedin) { ?>
+								<li><a href="<?= $item->linkedin ?>" target="_blank" class="icon brands style1 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<?php } ?>
 						</ul>
 					</section>
 				<?php } ?>
@@ -160,7 +152,7 @@
 
 <!-- DOWNLOAD APP -->
 
-<section id="download" class="spotlight style3 invert orient-right content-align-left image-position-center">
+<section id="download" class="spotlight style3 android invert orient-right content-align-left image-position-center">
 	<div class="content">
 		<h2>Descarga Apretaste</h2>
 		<p>¡Al fin llegó la hora! Descarga la app de Apretaste desde el Play Store o desde el Apple Market, o bien conéctate por la web y sé parte directa de la comunidad. Es todo un placer tenerte con nosotros.</p>

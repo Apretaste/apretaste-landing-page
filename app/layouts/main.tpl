@@ -41,6 +41,14 @@
 		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+		<!-- Floating -->
+		<div id="floating-menu">
+			<ul class="icons">
+				<li><a href="#download" class="icon solid style2 fa-download smooth-scroll-middle"><span class="label">Descargar</span></a></li>
+				<li><a href="/donate" target="_blank" class="icon solid style2 fa-hand-holding-usd"><span class="label">Donar</span></a></li>
+			</ul>
+		</div>
+
 		<!-- Content -->
 		<div id="wrapper" class="divided">
 			{TEMPLATE}

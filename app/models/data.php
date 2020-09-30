@@ -4,14 +4,14 @@
 //
 function getScreenshots () {
 	return [
-		(Object) ["image"=>"01.jpg", "title"=>"¡Sé tu mismo!", "text"=>"Habla sin pelos en la lengua con miles de cubanos, y comparte lo que piensas."],
-		(Object) ["image"=>"01.jpg", "title"=>"Date a conocer", "text"=>"Crea un perfil anónimo o público. Ponte un avatar y haz que otros te conozcan."],
-		(Object) ["image"=>"01.jpg", "title"=>"Crece tu red", "text"=>"Envía solicitudes y crece tu círculo de amigos. Comparte en público o privado."],
-		(Object) ["image"=>"01.jpg", "title"=>"Habla en PV", "text"=>"Conversa con tus amigos en privado, y forja amistades que duren toda la vida."],
-		(Object) ["image"=>"01.jpg", "title"=>"Hazte popular", "text"=>"Gana experiencia usando la app, sube de nivel y sé el más popular del ranking."],
-		(Object) ["image"=>"01.jpg", "title"=>"Busca el amor", "text"=>"¿Soltero? Encuentra tu media naranja en Piropazo: nuestro servicio de parejas."],
-		(Object) ["image"=>"01.jpg", "title"=>"Ponte al día", "text"=>"Consulta las noticias de la prensa más leída (independiente y oficial) de Cuba."],
-		(Object) ["image"=>"01.jpg", "title"=>"¡Y mucho más!", "text"=>"Disfruta decenas de servicios entretenidos y útiles para mantenerte informado."]
+		(Object) ["image"=>"1.png", "title"=>"¡Sé tu mismo!", "text"=>"Habla sin pelos en la lengua con miles de cubanos, y comparte lo que piensas."],
+		(Object) ["image"=>"2.png", "title"=>"Date a conocer", "text"=>"Crea un perfil anónimo o público. Ponte un avatar y haz que otros te conozcan."],
+		(Object) ["image"=>"3.png", "title"=>"Crece tu red", "text"=>"Envía solicitudes y crece tu círculo de amigos. Comparte en público o privado."],
+		(Object) ["image"=>"4.png", "title"=>"Habla en PV", "text"=>"Conversa con tus amigos en privado, y forja amistades que duren toda la vida."],
+		(Object) ["image"=>"5.png", "title"=>"Hazte popular", "text"=>"Gana experiencia usando la app, sube de nivel y sé el más popular del ranking."],
+		(Object) ["image"=>"6.png", "title"=>"Busca el amor", "text"=>"¿Soltero? Encuentra tu media naranja en Piropazo: nuestro servicio de parejas."],
+		(Object) ["image"=>"7.png", "title"=>"Ponte al día", "text"=>"Consulta las noticias de la prensa más leída (independiente y oficial) de Cuba."],
+		(Object) ["image"=>"8.png", "title"=>"¡Y mucho más!", "text"=>"Disfruta decenas de servicios entretenidos y útiles para mantenerte informado."]
 	];
 }
 
@@ -58,6 +58,17 @@ function getSocialLinks () {
 	];
 }
 
+// list of user reviews
+//
+function getUserReviews () {
+	return [
+		(Object) ["text" => "Quiero felicitar al equipo técnico de la app, han realizado un excelente trabajo. Llevo unos cuantos años usándola, veo una gran mejora en conectividad ya que conecta muy rápido incluso con una conexión mala, y principalmente en el consumo. En estos momentos el consumo es muy bajo y ahora más del 50% que antes, teniendo en cuenta que tengo las imágenes puestas y soy fiel seguidor del servicio pizarra.", "username" => "@luis319", "avatar" => "hombre", "avatarColor" => "#99F9FF"],
+		(Object) ["text" => "Muy buena app, unas de las mejores opciones que tenemos nosotros los cubanos para conectar sin necesidad de tener  internet y estar informados de las noticias tanto de aquí como del mundo. Se puede hacer amigos chatear, tiene unas cuantas opciones que con una bolsa de correo de 50 Mb puedes estar bien informado. Por ende quiero felicitar a todo el colectivo de trabajo por tan excelente app. Sigan así espero nuevas mejoras. Gracias", "username" => "@mariah", "avatar" => "deportiva", "avatarColor" => "#9ADB05"],
+		(Object) ["text" => "Hola, primero que todo quisiera agradecer al equipo de A!, por el excelente trabajo que han realizado. Ha mejorado bastante  su  uso es más fácil pienso q han tenido en cuenta que esta app es usada por  personas de diferentes edades, sobre todo en pizarra y Piropazo soy fiel seguidora de este servicio. Creo que gracias a los nuevos cambios todos podemos disfrutar con más frecuencia con un costo mínimo usando fácilmente está app. Muy importante tiene un servicio de Wikipedia siendo el mismo muy útil para los estudiantes. Realmente para mí tiene las 5 estrellas. ", "username" => "@tahimi", "avatar" => "libre", "avatarColor" => "#99F9FF"],
+		(Object) ["text" => "Quisiera expresar mi agradecimiento a todos los realizadores de esta app. Tiene una infinidad de servicios que son muy útil para el cubano. Con ellos tenemos mucha información sin necesidad de internet, se puede hablar libremente sin que nadie te discrimine y con beneficios. Se hacen rifas, recargas yo misma he ganado algunas de ellas y lo más importante nos mantiene informado con noticias tanto de la índole nacional como internacional, incluso con noticias de Tecnología que en ese aspecto estamos la mayoría de los cubanos perdidos. Reiteró mis felicitaciones y que sigan adelante con futuras actualizaciones superiores.", "username" => "@lianny27", "avatar" => "fabulosa", "avatarColor" => "#FF415B"],
+	];
+}
+
 // list of media
 //
 function getMediaMentions () {
@@ -99,5 +110,7 @@ function getTeamMembers () {
 		(Object) ["img"=>"carlos.jpg", "name"=>"Carlos Acosta", "position"=>"iOS Developer", "email"=>"carlos@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/cjamcu/"],
 		(Object) ["img"=>"edgar.jpg", "name"=>"Edgar Hernández", "position"=>"Representante de Soporte", "email"=>"edgar@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/ed188/"],
 		(Object) ["img"=>"orisbel.jpg", "name"=>"Orisbel Ríos", "position"=>"Experto en Comunicaciones", "email"=>"orisbel@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/orisbel-rios-gonz%C3%A1lez-085a85151/"],
+		(Object) ["img"=>"andrea.jpg", "name"=>"Andrea Loewenthal", "position"=>"Diseñadora", "email"=>"andrea@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/andrea-l-b697b1184/"],
+		(Object) ["img"=>"apretin.png", "name"=>"Apretín", "position"=>"Robot Mascota", "email"=>"apretin@apretaste.org", "linkedin"=>""],
 	];
 }
