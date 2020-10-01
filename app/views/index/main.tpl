@@ -57,14 +57,11 @@
 	</div>
 
 	<!-- brands -->
-	<div class="gallery style2 small onscroll-fade-in margin-bottom-medium">
+	<div id="brands" class="gallery style2 small onscroll-fade-in margin-bottom-medium">
 		<?php foreach ($dataSources as $item) { ?>
 			<article>
 				<div class="image">
 					<img src="images/brands/<?= $item->img ?>" alt="<?= $item->alt ?>" title="<?= $item->alt ?>"/>
-				</div>
-				<div class="caption">
-					<h3><?= $item->alt ?></h3>
 				</div>
 			</article>
 		<?php } ?>
@@ -155,11 +152,11 @@
 <section id="download" class="spotlight style3 android invert orient-right content-align-left image-position-center">
 	<div class="content">
 		<h2>Descarga Apretaste</h2>
-		<p>¡Al fin llegó la hora! Descarga la app de Apretaste desde el Play Store o desde el Apple Market, o bien conéctate por la web y sé parte directa de la comunidad. Es todo un placer tenerte con nosotros.</p>
+		<p>¡Al fin llegó la hora! Descarga la app de Apretaste desde el Play Store o desde el Apple Store, o bien conéctate por la web y sé parte directa de la comunidad. Es todo un placer tenerte con nosotros.</p>
 
 		<ul class="actions">
-			<li><a href="https://play.google.com/store/apps/details?id=com.apretaste.apretaste" target="_blank" class="button primary icon brands fa-android">Play Store</a></li>
-			<li><a href="https://apps.apple.com/us/app/apretaste-navega-libremente/id1488232603" target="_blank" class="button primary icon brands fa-apple">Apple Store</a></li>
+			<li><a href="https://play.google.com/store/apps/details?id=com.apretaste.apretaste" target="_blank" class="button primary icon brands fa-android">Android</a></li>
+			<li><a href="https://apps.apple.com/us/app/apretaste-navega-libremente/id1488232603" target="_blank" class="button primary icon brands fa-apple">iPhone</a></li>
 			<li><a href="https://app.apretaste.org/" target="_blank" class="button primary icon solid fa-globe">Versión Web</a></li>
 		</ul>
 	</div>

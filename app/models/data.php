@@ -28,20 +28,20 @@ function getFeatures () {
 	];
 }
 
-// list of data sources
+// list of brands
 //
 function getDataSources () {
 	return [
-		(Object) ["img"=>"01.jpg", "alt"=>"Google"],
-		(Object) ["img"=>"01.jpg", "alt"=>"Wikipedia"],
-		(Object) ["img"=>"01.jpg", "alt"=>"CubaNet"],
-		(Object) ["img"=>"01.jpg", "alt"=>"Diario de Cuba"],
-		(Object) ["img"=>"01.jpg", "alt"=>"Marti Noticias"],
-		(Object) ["img"=>"01.jpg", "alt"=>"The Weather Channel"],
-		(Object) ["img"=>"01.jpg", "alt"=>"Johns Hopkins Coronavirus Resource Center"],
-		(Object) ["img"=>"01.jpg", "alt"=>"WebMD"],
-		(Object) ["img"=>"01.jpg", "alt"=>"Revoltillo"],
-		(Object) ["img"=>"01.jpg", "alt"=>"Granma"]
+		(Object) ["img"=>"google.png", "alt"=>"Google"],
+		(Object) ["img"=>"ddc.png", "alt"=>"Diario de Cuba"],
+		(Object) ["img"=>"cubanet.png", "alt"=>"CubaNet"],
+		(Object) ["img"=>"revoltillo.png", "alt"=>"Revoltillo"],
+		(Object) ["img"=>"marti_noticias.png", "alt"=>"Martí Noticias"],
+		(Object) ["img"=>"wikipedia.png", "alt"=>"Wikipedia"],
+		(Object) ["img"=>"weather_channel.png", "alt"=>"The Weather Channel"],
+		(Object) ["img"=>"johns_hopkins.png", "alt"=>"Johns Hopkins Coronavirus Resource Center"],
+		(Object) ["img"=>"webmd.png", "alt"=>"WebMD"],
+		(Object) ["img"=>"granma.png", "alt"=>"Granma"]
 	];
 }
 

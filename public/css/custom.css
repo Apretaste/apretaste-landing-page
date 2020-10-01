@@ -1,7 +1,15 @@
+/* MAIN */
+
 #main {
 	background-image: url(../images/background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+/* BRANDS */
+
+#brands.gallery article .image {
+	background-color: white;
 }
 
 /* HELPERS */
