@@ -57,7 +57,7 @@
 	</div>
 
 	<!-- brands -->
-	<div id="brands" class="gallery style2 small onscroll-fade-in margin-bottom-medium">
+	<div id="brands" class="gallery style2 small onscroll-fade-in">
 		<?php foreach ($dataSources as $item) { ?>
 			<article>
 				<div class="image">

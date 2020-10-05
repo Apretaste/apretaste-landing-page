@@ -4,6 +4,7 @@
 	background-image: url(../images/background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center center;
 }
 
 /* BRANDS */
@@ -59,6 +60,10 @@ a.icon.style2:hover:before {
 	box-shadow: inset 0 0 0 1px #5EBB48;
 }
 
+#wrapper > .invert .button.primary:hover {
+	background-color: #5EBB48;
+}
+
 /* FLOATING MENU */
 
 #floating-menu {
@@ -84,10 +89,6 @@ a.icon.style2:hover:before {
 
 .no-padding-bottom {
 	padding-bottom: 0px !important;
-}
-
-.margin-bottom-medium {
-	margin-bottom: 64px;
 }
 
 .padding-left-tiny {
