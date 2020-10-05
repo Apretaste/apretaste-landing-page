@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: apretaste.org
-Token: 483db11d9f3ef3f3d39ff65155746af91160cefbc97366bf83fdbc2cefc037a7

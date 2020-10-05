@@ -1,0 +1,96 @@
+/* MAIN */
+
+#main {
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+/* BRANDS */
+
+#brands.gallery article .image {
+	background-color: white;
+}
+
+/* HELPERS */
+
+.small {
+	font-size: smaller;
+}
+
+.fix-items-alignment {
+	padding: 0px 12px 12px 0px !important;
+}
+
+/* REVIEWS */
+
+.review h2 {
+	margin: 0px;
+}
+
+.review .image {
+	border-radius: 50%;
+	margin: 20px 24px 20px 0px;
+}
+
+.review img {
+	border-radius: 50%;
+	padding: 10px;
+}
+
+/* COLORS */
+
+a:hover {
+	color: #5EBB48 !important;
+}
+
+a.icon.style2:hover:before {
+	box-shadow: inset 0 0 0 1px #5EBB48 !important;
+	color: #5EBB48 !important;
+}
+
+.button.primary:hover {
+	background-color: #5EBB48;
+	color: white !important;
+}
+
+.button:hover {
+	color: #5EBB48 !important;
+	box-shadow: inset 0 0 0 1px #5EBB48;
+}
+
+#wrapper > .invert .button.primary:hover {
+	background-color: #5EBB48;
+}
+
+/* FLOATING MENU */
+
+#floating-menu {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 1;
+}
+
+#floating-menu a.icon.style2 {
+	color: #5EBB48 !important;
+}
+
+#floating-menu .icon.style2:before {
+	box-shadow: inset 0 0 0 1px #5EBB48 !important;
+}
+
+/* SPACING */
+
+.no-margin-bottom {
+	margin-bottom: 0px;
+}
+
+.no-padding-bottom {
+	padding-bottom: 0px !important;
+}
+
+.padding-left-tiny {
+	padding-left: 5px;
+}

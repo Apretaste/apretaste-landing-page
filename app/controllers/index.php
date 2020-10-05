@@ -6,26 +6,22 @@ class Index
 {
 	public function main()
 	{
-		// get the visitors
-		$summary = Database::queryCache("
-			SELECT DATE_FORMAT(inserted, '%Y-%m') AS month, SUM(visitors) AS visits
-			FROM delivery_summary 
-			WHERE inserted < CURRENT_DATE
-			GROUP BY month
-			LIMIT 5", Database::CACHE_YEAR);
+		// include the data
+		require APP_PATH . 'models/data.php';
 
-		// format data for the chart
-		$visitors = [];
-		$visitorsPerMonth = 0;
-		foreach($summary as $sm) {
-			if($visitorsPerMonth < $sm->visits) $visitorsPerMonth = $sm->visits;
-			$visitors[] = ["date"=> strftime('%B %Y', strtotime($sm->month)), "emails"=>$sm->visits];
-		}
+		// get a random review
+		$userReviews = getUserReviews();
+		$userReview = $userReviews[array_rand($userReviews)];
 
 		// send data to the view
-		$this->view->data->title = "Bienvenido a Apretaste";
-		$this->view->data->visitors = array_reverse($visitors);
-		$this->view->data->visitorsPerMonth = $visitorsPerMonth;
+		$this->view->data->title = "Haz amigos, habla libremente.";
+		$this->view->data->screenshots = getScreenshots();
+		$this->view->data->features = getFeatures();
+		$this->view->data->dataSources = getDataSources();
+		$this->view->data->socialLinks = getSocialLinks();
+		$this->view->data->userReview = $userReview;
+		$this->view->data->mediaMentions = getMediaMentions();
+		$this->view->data->teamMembers = getTeamMembers();
 		$this->view->setTemplate('main');
 		$this->view->setLayout('main');
 	}
