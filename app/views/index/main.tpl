@@ -156,7 +156,7 @@
 
 		<ul class="actions">
 			<li><a href="https://play.google.com/store/apps/details?id=com.apretaste.apretaste" target="_blank" class="button primary icon brands fa-android">Android</a></li>
-			<li><a href="https://apps.apple.com/us/app/apretaste-navega-libremente/id1488232603" target="_blank" class="button primary icon brands fa-apple">iPhone</a></li>
+			<li><a href="https://apps.apple.com/app/id1488232603" target="_blank" class="button primary icon brands fa-apple">iPhone</a></li>
 			<li><a href="https://app.apretaste.org/" target="_blank" class="button primary icon solid fa-globe">Versión Web</a></li>
 		</ul>
 	</div>
