@@ -1,7 +1,7 @@
 <section class="wrapper style1">
 	<div class="inner">
 		<h1>¡Gracias por regar la voz!</h1>
-		<p>Gracias por invitar a su familia y amigos a usar la app de Apretaste, unirlos a nuestra comunidad de miles de cubanos y dales el chance de disfrutar decenas de servicios útiles y entrenidos y ganar recargas.</p>
+		<p>Gracias por invitar a su familia y amigos a usar Apretaste, unirlos a nuestra comunidad de miles de cubanos, darles el chance de disfrutar decenas de servicios útiles y entrenidos, y de ganar recargas.</p>
 
 		<ul class="actions">
 			<li><a href="/invitar" class="button primary">Invitar más gente</a></li>
