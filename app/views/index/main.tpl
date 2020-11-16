@@ -23,7 +23,7 @@
 		<p>Conoce la plataforma social que está cambiando la vida de miles de cubanos, ya sea ayudándoles a propagar su voz, ofreciéndoles decenas de servicios útiles e información a tiempo real, o trayendo con sorteos, concursos y entretenimiento sin igual.</p>
 	</div>
 
-	<div class="gallery style1 medium">
+	<div class="gallery style2 big">
 		<?php foreach ($screenshots as $item) { ?>
 			<article>
 				<div class="image">

@@ -28,6 +28,7 @@ include BASE_PATH . "vendor/autoload.php";
 
 // define the environment
 define('IS_PRODUCTION', Config::pick('general')['tier'] === 'prod');
+define('IS_HOME_PAGE', $controller == 'index');
 
 // show 404 error
 if(!file_exists(APP_PATH . "controllers/$controller.php")) {

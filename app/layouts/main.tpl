@@ -63,7 +63,11 @@
 		<!-- Floating -->
 		<div id="floating-menu">
 			<ul class="icons">
-				<li><a href="#download" class="icon solid style2 fa-download smooth-scroll-middle"><span class="label">Descargar</span></a></li>
+				<?php if(IS_HOME_PAGE) { ?>
+					<li><a href="#download" class="icon solid style2 fa-download smooth-scroll-middle"><span class="label">Descargar</span></a></li>
+				<?php } else { ?>
+					<li><a href="/" class="icon solid style2 fa-arrow-left"><span class="label">Atrás</span></a></li>
+				<?php } ?>
 				<li><a href="/donate" target="_blank" class="icon solid style2 fa-hand-holding-usd"><span class="label">Donar</span></a></li>
 			</ul>
 		</div>
