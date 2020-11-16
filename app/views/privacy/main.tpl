@@ -1,4 +1,4 @@
-<section id="team" class="wrapper style1">
+<section class="wrapper style1">
 	<div class="inner">
 		<h1>Apretaste Privacy Policy</h1>
 		<ul>

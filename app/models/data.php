@@ -107,10 +107,16 @@ function getTeamMembers () {
 		(Object) ["img"=>"salvi.jpg", "name"=>"Salvi Pascual", "position"=>"Executive Director", "email"=>"salvi@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/salvipascual/"],
 		(Object) ["img"=>"kuma.jpg", "name"=>"Kuma Hacker", "position"=>"Back-End Developer", "email"=>"kuma@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/kumahacker/"],
 		(Object) ["img"=>"ricardo.jpg", "name"=>"Ricardo Jimenez", "position"=>"Android Developer", "email"=>"ricardo@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/ricardo-jimenez-31a59512b"],
-//		(Object) ["img"=>"carlos.jpg", "name"=>"Carlos Acosta", "position"=>"iOS Developer", "email"=>"carlos@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/cjamcu/"],
 		(Object) ["img"=>"edgar.jpg", "name"=>"Edgar Hernández", "position"=>"Representante de Soporte", "email"=>"edgar@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/ed188/"],
 		(Object) ["img"=>"orisbel.jpg", "name"=>"Orisbel Ríos", "position"=>"Experto en Comunicaciones", "email"=>"orisbel@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/orisbel-rios-gonz%C3%A1lez-085a85151/"],
 		(Object) ["img"=>"andrea.jpg", "name"=>"Andrea Loewenthal", "position"=>"Diseñadora", "email"=>"andrea@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/andrea-l-b697b1184/"],
 		(Object) ["img"=>"apretin.png", "name"=>"Apretín", "position"=>"Robot Mascota", "email"=>"apretin@apretaste.org", "linkedin"=>""],
 	];
+}
+
+// get the download URLs
+//
+function getDownloadLink ($os) {
+	if($os == 'android') return 'https://play.google.com/store/apps/details?id=com.apretaste.apretaste';
+	if($os == 'ios') return 'https://apps.apple.com/app/id1488232603';
 }

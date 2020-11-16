@@ -89,6 +89,19 @@
 	</div>
 </section>
 
+<!-- INVITE -->
+
+<section id="screenshots" class="spotlight style2 invert content-align-center">
+	<div class="content">
+		<h2>¡Invita a tu gente en Cuba!</h2>
+		<p>Invita a tu familia y amigos a nuestra comunidad de miles de cubanos, manténlos informados y dales el chance de disfrutar decenas de servicios útiles y entrenidos y ganar premios especiales.</p>
+
+		<ul class="actions">
+			<li style="margin:auto;"><a href="/invitar" class="button primary fit big wide icon solid fa-envelope">Invitar</a></li>
+		</ul>
+	</div>
+</section>
+
 <!-- WHAT DO PEOPLE SAY -->
 
 <section id="reviews" class="wrapper style1 align-center">
@@ -155,8 +168,8 @@
 		<p>¡Al fin llegó la hora! Descarga la app de Apretaste desde el Play Store o desde el Apple Store, o bien conéctate por la web y sé parte directa de la comunidad. Es todo un placer tenerte con nosotros.</p>
 
 		<ul class="actions">
-			<li><a href="https://play.google.com/store/apps/details?id=com.apretaste.apretaste" target="_blank" class="button primary icon brands fa-android">Android</a></li>
-			<li><a href="https://apps.apple.com/app/id1488232603" target="_blank" class="button primary icon brands fa-apple">iPhone</a></li>
+			<li><a href="<?= getDownloadLink('android') ?>" target="_blank" class="button primary icon brands fa-android">Android</a></li>
+			<li><a href="<?= getDownloadLink('ios') ?>" target="_blank" class="button primary icon brands fa-apple">iPhone</a></li>
 			<li><a href="https://app.apretaste.org/" target="_blank" class="button primary icon solid fa-globe">Versión Web</a></li>
 		</ul>
 	</div>

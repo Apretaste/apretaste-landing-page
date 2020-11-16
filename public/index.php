@@ -1,6 +1,8 @@
 <?php
 
 use Framework\View;
+use Framework\Config;
+use Framework\Request;
 use Framework\Database;
 
 // localize timezone and dates
@@ -24,6 +26,9 @@ define('TEMP_PATH', BASE_PATH . 'tmp/');
 // add the autoload
 include BASE_PATH . "vendor/autoload.php";
 
+// define the environment
+define('IS_PRODUCTION', Config::pick('general')['tier'] === 'prod');
+
 // show 404 error
 if(!file_exists(APP_PATH . "controllers/$controller.php")) {
 	die("404 error");
@@ -38,6 +43,9 @@ if(!method_exists($page, $action)) $action = 'main';
 
 // add a new view
 $page->view = new View($controller, $action);
+
+// add an input handler
+$page->request = new Request();
 
 // run the controller
 $page->$action();

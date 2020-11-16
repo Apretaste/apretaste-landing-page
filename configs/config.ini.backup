@@ -3,3 +3,11 @@ host=
 user=root
 pass=
 name=
+
+[general]
+tier=dev|prod
+support_email=ayuda@apretaste.org
+
+[amazon]
+access=
+secret=
