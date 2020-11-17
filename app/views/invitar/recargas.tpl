@@ -1,17 +1,8 @@
 <section class="spotlight style3 android orient-left content-align-left image-position-center onload-content-fade-down">
 	<div class="content">
-		<h1>Invita a tu familia y amigos a la red de todos los cubanos.</h1>
+		<h1>Invita a tu gente en Cuba a divertirse, y ganar Recargas.</h1>
 
-		<p><b>Instalando la app de Apretaste podrán:</b></p>
-
-		<ul class="alt">
-			<li>Hacer amig@s por toda Cuba y el mundo, y chatear.</li>
-			<li>Estar al tanto de lo que pasa dentro y fuera de Cuba.</li>
-			<li>Hablar libremente, de manera anónima y segura.</li>
-			<li>Obtener hasta dos <b>recargas Cubacel gratis</b> cada día.</li>
-			<li>Participar en concursos, rifas, juegos y más diversión.</li>
-			<li>Revisar decenas de servicios entretenidos y útiles...</li>
-		</ul>
+		<p>Somos la red social y de amistad más grande de Cuba. Instalando Apretaste se mantendrán informados, entretenidos, y podrán obtener hasta dos <b>recargas Cubacel gratis</b> cada día.</p>
 
 		<!-- Form -->
 		<form method="post" action="/invitar/submit">

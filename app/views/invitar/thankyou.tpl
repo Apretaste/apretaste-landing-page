@@ -19,7 +19,7 @@
 		</ul>
 
 		<h2>Instálate la app</h2>
-		<p>Descarga la app de Apretaste y mantente en sintonía con los tuyos en Cuba.</p>
+		<p>Descarga la app de Apretaste y mantente en sintonía con los tuyos.</p>
 
 		<ul class="actions">
 			<li><a href="<?= getDownloadLink('android') ?>" target="_blank" class="button icon brands fa-android">Android</a></li>

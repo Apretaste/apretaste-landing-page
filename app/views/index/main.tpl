@@ -7,7 +7,7 @@
 		<p>Un espacio para conocer e intercambiar entre miles de cubanos, decir lo que piensas, ganar premios geniales y mantenerte entretenido e informado. Todo gratuitamente, seguro, y con mínimo consumo de datos.</p>
 		<ul class="actions">
 			<li><a href="#download" class="button primary big wide icon solid fa-download smooth-scroll-middle">Descargar</a></li>
-			<li><a href="#screenshots" class="button big wide smooth-scroll-middle">Ver más</a></li>
+			<li><a href="#invite" class="button big wide smooth-scroll-middle">Compartir con Cuba</a></li>
 		</ul>
 	</div>
 	<div class="image">
@@ -91,7 +91,7 @@
 
 <!-- INVITE -->
 
-<section id="screenshots" class="spotlight style2 invert content-align-center">
+<section id="invite" class="spotlight style2 invert content-align-center">
 	<div class="content">
 		<h2>¡Invita a tu gente en Cuba!</h2>
 		<p>Invita a tu familia y amigos a nuestra comunidad de miles de cubanos, manténlos informados y dales el chance de disfrutar decenas de servicios útiles y entrenidos y ganar premios especiales.</p>

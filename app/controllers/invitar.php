@@ -24,6 +24,21 @@ class Invitar
 	/**
 	 * main action
 	 */
+	public function recargas()
+	{
+		// include the data
+		require APP_PATH . 'models/data.php';
+
+		// send data to the view
+		$this->view->data->title = "Invita a tu gente en Cuba";
+		$this->view->data->hideNavigation = true;
+		$this->view->setTemplate('main');
+		$this->view->setLayout('main');
+	}
+
+	/**
+	 * main action
+	 */
 	public function submit()
 	{
 		// get elements
