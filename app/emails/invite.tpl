@@ -1,6 +1,6 @@
 Hola,
 
-Algo debes tener, porque {NAME} te invitó a ser parte nuestra vibrante comunidad de amig@s.
+Algo debes tener, porque {NAME} te invitó a ser parte de nuestra vibrante comunidad de amig@s.
 
 Somos la app de todos los cubanos, con amistad, juegos, sorpresas y docena de servicios útiles a través de Datos, WiFi y correo Nauta. Además, cada semana hacemos rifas, concursos y encuestas, en las cuales te ganas premios especiales y recargas Cubacel.
 
