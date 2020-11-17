@@ -11,3 +11,7 @@ support_email=ayuda@apretaste.org
 [amazon]
 access=
 secret=
+
+[mailers]
+key=
+lost_limit=
