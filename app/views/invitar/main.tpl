@@ -31,6 +31,6 @@
 		</form>
 	</div>
 	<div class="image">
-		<img src="/images/waving.jpg" alt="" />
+		<img src="/images/apretin_waving.jpg" alt="" />
 	</div>
 </section>

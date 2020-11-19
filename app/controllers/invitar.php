@@ -7,7 +7,7 @@ use Framework\Database;
 class Invitar 
 {
 	/**
-	 * main action
+	 * display the invitation form
 	 */
 	public function main()
 	{
@@ -22,22 +22,15 @@ class Invitar
 	}
 
 	/**
-	 * main action
+	 * temporal redirect to recargas landing page
 	 */
 	public function recargas()
 	{
-		// include the data
-		require APP_PATH . 'models/data.php';
-
-		// send data to the view
-		$this->view->data->title = "Invita a tu gente en Cuba";
-		$this->view->data->hideNavigation = true;
-		$this->view->setTemplate('main');
-		$this->view->setLayout('main');
+		header("Location: /landing/recargas");
 	}
 
 	/**
-	 * main action
+	 * send the invitation email
 	 */
 	public function submit()
 	{
@@ -70,7 +63,7 @@ class Invitar
 	}
 
 	/**
-	 * main action
+	 * display the thank you page
 	 */
 	public function thankyou()
 	{

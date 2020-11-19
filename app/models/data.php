@@ -32,16 +32,16 @@ function getFeatures () {
 //
 function getDataSources () {
 	return [
-		(Object) ["img"=>"google.png", "alt"=>"Google"],
-		(Object) ["img"=>"ddc.png", "alt"=>"Diario de Cuba"],
-		(Object) ["img"=>"cubanet.png", "alt"=>"CubaNet"],
-		(Object) ["img"=>"revoltillo.png", "alt"=>"Revoltillo"],
-		(Object) ["img"=>"marti_noticias.png", "alt"=>"Martí Noticias"],
-		(Object) ["img"=>"wikipedia.png", "alt"=>"Wikipedia"],
-		(Object) ["img"=>"weather_channel.png", "alt"=>"The Weather Channel"],
-		(Object) ["img"=>"johns_hopkins.png", "alt"=>"Johns Hopkins Coronavirus Resource Center"],
-		(Object) ["img"=>"webmd.png", "alt"=>"WebMD"],
-		(Object) ["img"=>"granma.png", "alt"=>"Granma"]
+		(Object) ["img"=>"google.png", "type"=>"other", "alt"=>"Google"],
+		(Object) ["img"=>"ddc.png", "type"=>"news", "alt"=>"Diario de Cuba"],
+		(Object) ["img"=>"cubanet.png", "type"=>"news", "alt"=>"CubaNet"],
+		(Object) ["img"=>"revoltillo.png", "type"=>"other", "alt"=>"Revoltillo"],
+		(Object) ["img"=>"marti_noticias.png", "type"=>"news", "alt"=>"Martí Noticias"],
+		(Object) ["img"=>"wikipedia.png", "type"=>"other", "alt"=>"Wikipedia"],
+		(Object) ["img"=>"weather_channel.png", "type"=>"other", "alt"=>"The Weather Channel"],
+		(Object) ["img"=>"johns_hopkins.png", "type"=>"other", "alt"=>"Johns Hopkins Coronavirus Resource Center"],
+		(Object) ["img"=>"webmd.png", "type"=>"other", "alt"=>"WebMD"],
+		(Object) ["img"=>"granma.png", "type"=>"news", "alt"=>"Granma"]
 	];
 }
 
@@ -111,6 +111,19 @@ function getTeamMembers () {
 		(Object) ["img"=>"orisbel.jpg", "name"=>"Orisbel Ríos", "position"=>"Experto en Comunicaciones", "email"=>"orisbel@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/orisbel-rios-gonz%C3%A1lez-085a85151/"],
 		(Object) ["img"=>"andrea.jpg", "name"=>"Andrea Loewenthal", "position"=>"Diseñadora", "email"=>"andrea@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/andrea-l-b697b1184/"],
 		(Object) ["img"=>"apretin.png", "name"=>"Apretín", "position"=>"Robot Mascota", "email"=>"apretin@apretaste.org", "linkedin"=>""],
+	];
+}
+
+// list of news screenshots
+//
+function getNewsScreenshots () {
+	return [
+		(Object) ["image"=>"1.jpg", "title"=>"Escoge tus periódicos"],
+		(Object) ["image"=>"2.jpg", "title"=>"Revisa los titulares"],
+		(Object) ["image"=>"3.jpg", "title"=>"Lee las noticias"],
+		(Object) ["image"=>"5.jpg", "title"=>"Créate un perfil anónimo"],
+		(Object) ["image"=>"4.jpg", "title"=>"Comenta y debate"],
+		(Object) ["image"=>"6.jpg", "title"=>"Haz amigos y socializa"]
 	];
 }
 

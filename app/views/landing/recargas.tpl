@@ -22,6 +22,6 @@
 		</form>
 	</div>
 	<div class="image">
-		<img src="/images/waving.jpg" alt="" />
+		<img src="/images/apretin_etecsa.jpg" alt="" />
 	</div>
 </section>

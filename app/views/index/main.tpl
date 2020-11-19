@@ -1,8 +1,8 @@
-<!-- MAIN SECTION -->
+<!-- HEADER -->
 
 <section id="main" class="banner style4 android orient-right content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
 	<div class="content">
-		<img class="logo" src="images/apretaste_logo_300x108.png" alt="Apretaste Logo"/>
+		<img class="logo" src="/images/apretaste_logo_300x108.png" alt="Apretaste Logo"/>
 		<p class="major">Apretaste es la red social y de amistad más divertida, libre, asequible y segura; hecha con ❤ para todos los cubanos.</p>
 		<p>Un espacio para conocer e intercambiar entre miles de cubanos, decir lo que piensas, ganar premios geniales y mantenerte entretenido e informado. Todo gratuitamente, seguro, y con mínimo consumo de datos.</p>
 		<ul class="actions">
@@ -11,7 +11,7 @@
 		</ul>
 	</div>
 	<div class="image">
-		<img src="images/home.jpg" alt="" />
+		<img src="/images/home.jpg" alt="" />
 	</div>
 </section>
 
@@ -27,7 +27,7 @@
 		<?php foreach ($screenshots as $item) { ?>
 			<article>
 				<div class="image">
-					<img src="images/screens/<?= $item->image ?>" alt="" />
+					<img src="/images/screens/<?= $item->image ?>" alt="" />
 				</div>
 				<div class="caption">
 					<h3><?= $item->title ?></h3>
@@ -38,7 +38,7 @@
 	</div>
 </section>
 
-<!-- FEATURES & BRANDS -->
+<!-- FEATURES -->
 
 <section id="features" class="wrapper style1 align-center">
 	<div class="inner no-padding-bottom">
@@ -55,17 +55,18 @@
 			<?php } ?>
 		</div>
 	</div>
+</section>
 
-	<!-- brands -->
-	<div id="brands" class="gallery style2 small onscroll-fade-in">
-		<?php foreach ($dataSources as $item) { ?>
-			<article>
-				<div class="image">
-					<img src="images/brands/<?= $item->img ?>" alt="<?= $item->alt ?>" title="<?= $item->alt ?>"/>
-				</div>
-			</article>
-		<?php } ?>
-	</div>
+<!-- BRANDS -->
+
+<section id="brands" class="gallery style2 small onscroll-fade-in">
+	<?php foreach ($dataSources as $item) { ?>
+		<article>
+			<div class="image">
+				<img src="/images/brands/<?= $item->img ?>" alt="<?= $item->alt ?>" title="<?= $item->alt ?>"/>
+			</div>
+		</article>
+	<?php } ?>
 </section>
 
 <!-- APRETIN -->
@@ -85,7 +86,7 @@
 
 	</div>
 	<div class="image">
-		<img src="images/apretin.png" alt="" />
+		<img src="/images/apretin.png" alt="" />
 	</div>
 </section>
 
@@ -112,7 +113,7 @@
 		<!-- random review -->
 		<div class="review align-left">
 			<span class="image left" style="background-color:<?= $userReview->avatarColor ?>">
-				<img src="images/avatars/<?= $userReview->avatar ?>.png" alt="">
+				<img src="/images/avatars/<?= $userReview->avatar ?>.png" alt="">
 			</span>
 			<h2><?= $userReview->username ?></h2>
 			<p><?= $userReview->text ?></p>
@@ -125,7 +126,7 @@
 			<article>
 				<div class="image">
 					<a href="<?= $item->link ?>" target="_blank">
-						<img src="images/media/<?= $item->img ?>" alt="<?= $item->img ?>"/>
+						<img src="/images/media/<?= $item->img ?>" alt="<?= $item->img ?>"/>
 					</a>
 				</div>
 			</article>
@@ -160,7 +161,7 @@
 	</div>
 </section>
 
-<!-- DOWNLOAD APP -->
+<!-- DOWNLOAD -->
 
 <section id="download" class="spotlight style3 android invert orient-right content-align-left image-position-center">
 	<div class="content">
@@ -174,6 +175,6 @@
 		</ul>
 	</div>
 	<div class="image">
-		<img src="images/download.jpg" alt="" />
+		<img src="/images/apretin_pointing.jpg" alt="" />
 	</div>
 </section>
