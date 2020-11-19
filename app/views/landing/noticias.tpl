@@ -43,8 +43,8 @@
 		<h2>Descarga Apretaste</h2>
 		<p>Descarga la app de Apretaste, conéctate con la comunidad más grande de cubanos, lee y debate las últimas noticias de Cuba.</p>
 		<ul class="actions">
-			<li><a href="<?= getDownloadLink('android') ?>" target="_blank" class="button primary icon brands fa-android">Android</a></li>
-			<li><a href="<?= getDownloadLink('ios') ?>" target="_blank" class="button primary icon brands fa-apple">iPhone</a></li>
+			<li><a onclick="sendAnalyticsEvent('download_btn', 'android')" href="<?= getDownloadLink('android') ?>" target="_blank" class="button primary icon brands fa-android">Android</a></li>
+			<li><a onclick="sendAnalyticsEvent('download_btn', 'ios')" href="<?= getDownloadLink('ios') ?>" target="_blank" class="button primary icon brands fa-apple">iPhone</a></li>
 		</ul>
 	</div>
 	<div class="image">

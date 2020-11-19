@@ -12,7 +12,7 @@
 
 		<ul class="icons">
 			<?php foreach ($socialLinks as $item) { ?>
-				<li><a href="<?= $item->link ?>" target="_blank" class="icon brands style2 <?= $item->icon ?>">
+				<li><a onclick="sendAnalyticsEvent('social_btn', '<?= $item->caption ?>')" href="<?= $item->link ?>" target="_blank" class="icon brands style2 <?= $item->icon ?>">
 					<span class="label"><?= $item->caption ?></span></a>
 				</li>
 			<?php } ?>
@@ -22,8 +22,8 @@
 		<p>Descarga la app de Apretaste y mantente en sintonía con los tuyos.</p>
 
 		<ul class="actions">
-			<li><a href="<?= getDownloadLink('android') ?>" target="_blank" class="button icon brands fa-android">Android</a></li>
-			<li><a href="<?= getDownloadLink('ios') ?>" target="_blank" class="button icon brands fa-apple">iPhone</a></li>
+			<li><a onclick="sendAnalyticsEvent('download_btn', 'android')" href="<?= getDownloadLink('android') ?>" target="_blank" class="button icon brands fa-android">Android</a></li>
+			<li><a onclick="sendAnalyticsEvent('download_btn', 'ios')" href="<?= getDownloadLink('ios') ?>" target="_blank" class="button icon brands fa-apple">iPhone</a></li>
 		</ul>
 	</div>
 </section>

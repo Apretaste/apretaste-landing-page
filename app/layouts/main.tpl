@@ -69,7 +69,7 @@
 						<li><a href="#download" class="icon solid style2 fa-download smooth-scroll-middle"><span class="label">Descargar</span></a></li>
 					<?php } ?>
 					<?php if(in_array("donate", $navigation)) { ?>
-						<li><a href="/donate" target="_blank" class="icon solid style2 fa-hand-holding-usd"><span class="label">Donar</span></a></li>
+						<li><a onclick="sendAnalyticsEvent('donate_btn', 'donate')" href="/donate" target="_blank" class="icon solid style2 fa-hand-holding-usd"><span class="label">Donar</span></a></li>
 					<?php } ?>
 				</ul>
 			</div>
@@ -107,7 +107,7 @@
 								<ul class="actions stacked">
 									<li>
 										<span class="icon solid style1 fa-hand-holding-usd"></span>
-										<a href="/donate" target="_blank">
+										<a onclick="sendAnalyticsEvent('donate_btn', 'donate')" href="/donate" target="_blank">
 											<span class="label padding-left-tiny">Ayúdanos donando</span>
 										</a>
 									</li>
@@ -138,7 +138,7 @@
 								<ul class="icons">
 									<?php foreach ($socialLinks as $item) { ?>
 										<li class="fix-items-alignment">
-											<a href="<?= $item->link ?>" target="_blank" class="icon brands style2 <?= $item->icon ?>">
+											<a onclick="sendAnalyticsEvent('social_btn', '<?= $item->caption ?>')" href="<?= $item->link ?>" target="_blank" class="icon brands style2 <?= $item->icon ?>">
 												<span class="label"><?= $item->caption ?></span>
 											</a>
 										</li>
@@ -173,7 +173,18 @@
 			</script>
 		<?php } ?>
 
-		<!-- Zendesk Widget -->
+		<!-- google analytics events -->
+		<script>
+			function sendAnalyticsEvent (category, action) {
+				<?php if(IS_PRODUCTION) { ?>
+					gtag('event', action, {'event_category': category});
+				<?php } else { ?>
+					console.log('category: ' + category + ', action: ' + action);
+				<?php } ?>
+			}
+		</script>
+
+		<!-- zendesk widget -->
 		<?php if(IS_PRODUCTION) { ?>
 			<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=e21187ac-4d56-4c8a-85f3-89d824515b57"></script>
 		<?php } ?>
