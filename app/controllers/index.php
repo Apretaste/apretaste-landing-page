@@ -15,6 +15,7 @@ class Index
 
 		// send data to the view
 		$this->view->data->title = "Haz amigos, habla libremente.";
+		$this->view->data->navigation = ["download", "donate"];
 		$this->view->data->screenshots = getScreenshots();
 		$this->view->data->features = getFeatures();
 		$this->view->data->dataSources = getDataSources();

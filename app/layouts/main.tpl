@@ -53,23 +53,24 @@
 			fbq('set','agent','tmgoogletagmanager', '371172900887647');
 			fbq('track', "PageView");
 			</script>
-			<noscript><img height="1" width="1" style="display:none"
-			src="https://www.facebook.com/tr?id=371172900887647&ev=PageView&noscript=1"
-			/></noscript>
+			<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=371172900887647&ev=PageView&noscript=1"/></noscript>
 		<?php } ?>
 		<!-- End Facebook Pixel Code -->
 	</head>
 	<body class="is-preload">
-		<!-- Floating -->
-		<?php if (empty($hideNavigation)) { ?>
+		<!-- Floating Menu -->
+		<?php if (!empty($navigation)) { ?>
 			<div id="floating-menu">
 				<ul class="icons">
-					<?php if(IS_HOME_PAGE) { ?>
-						<li><a href="#download" class="icon solid style2 fa-download smooth-scroll-middle"><span class="label">Descargar</span></a></li>
-					<?php } else { ?>
+					<?php if(in_array("back", $navigation)) { ?>
 						<li><a href="/" class="icon solid style2 fa-arrow-left"><span class="label">Atrás</span></a></li>
 					<?php } ?>
-					<li><a href="/donate" target="_blank" class="icon solid style2 fa-hand-holding-usd"><span class="label">Donar</span></a></li>
+					<?php if(in_array("download", $navigation)) { ?>
+						<li><a href="#download" class="icon solid style2 fa-download smooth-scroll-middle"><span class="label">Descargar</span></a></li>
+					<?php } ?>
+					<?php if(in_array("donate", $navigation)) { ?>
+						<li><a href="/donate" target="_blank" class="icon solid style2 fa-hand-holding-usd"><span class="label">Donar</span></a></li>
+					<?php } ?>
 				</ul>
 			</div>
 		<?php } ?>
@@ -79,7 +80,7 @@
 			{TEMPLATE}
 
 			<!-- Footer -->
-			<?php if (empty($hideNavigation)) { ?>
+			<?php if (empty($hideFooter)) { ?>
 				<footer class="wrapper style1 align-center">
 					<div class="inner">
 						<div class="items style1 medium">

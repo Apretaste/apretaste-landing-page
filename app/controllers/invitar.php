@@ -16,17 +16,10 @@ class Invitar
 
 		// send data to the view
 		$this->view->data->title = "Invita a tu gente en Cuba";
+		$this->view->data->navigation = ["back", "download"];
 		$this->view->data->socialLinks = getSocialLinks();
 		$this->view->setTemplate('main');
 		$this->view->setLayout('main');
-	}
-
-	/**
-	 * temporal redirect to recargas landing page
-	 */
-	public function recargas()
-	{
-		header("Location: /landing/recargas");
 	}
 
 	/**

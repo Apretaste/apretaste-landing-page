@@ -19,7 +19,7 @@ class Landing
 	{
 		// send data to the view
 		$this->view->data->title = "Invita a tu gente a ganar Recargas";
-		$this->view->data->hideNavigation = true;
+		$this->view->data->hideFooter = true;
 		$this->view->setLayout('main');
 	}
 
@@ -33,7 +33,8 @@ class Landing
 
 		// send data to the view
 		$this->view->data->title = "Lee las Noticias de Cuba";
-		$this->view->data->hideNavigation = true;
+		$this->view->data->navigation = ["download"];
+		$this->view->data->hideFooter = true;
 		$this->view->data->newsScreenshots = getNewsScreenshots();
 		$this->view->data->dataSources = getDataSources();
 		$this->view->setLayout('main');
