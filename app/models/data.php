@@ -41,7 +41,10 @@ function getDataSources () {
 		(Object) ["img"=>"weather_channel.png", "type"=>"other", "alt"=>"The Weather Channel"],
 		(Object) ["img"=>"johns_hopkins.png", "type"=>"other", "alt"=>"Johns Hopkins Coronavirus Resource Center"],
 		(Object) ["img"=>"webmd.png", "type"=>"other", "alt"=>"WebMD"],
-		(Object) ["img"=>"granma.png", "type"=>"news", "alt"=>"Granma"]
+		(Object) ["img"=>"granma.png", "type"=>"news", "alt"=>"Granma"],
+		(Object) ["img"=>"android4all.png", "type"=>"news", "alt"=>"Android 4 All"],
+		(Object) ["img"=>"tecnolike.png", "type"=>"news", "alt"=>"Tecnolike Cuba"],
+		(Object) ["img"=>"xataka.png", "type"=>"news", "alt"=>"Xataka"]
 	];
 }
 
