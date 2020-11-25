@@ -29,7 +29,7 @@
 		<h2>Características</h2>
 		<p>Hay otras apps para citas en Cuba. ¿Sabes que nos hace especial?</p>
 
-		<div class="items style1 small onscroll-fade-in">
+		<div class="items style1 small">
 			<section>
 				<span class="icon style2 major fa-thumbs-up"></span>
 				<h3>Fácil de usar</h3>
