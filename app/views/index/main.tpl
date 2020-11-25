@@ -45,7 +45,7 @@
 		<h2>Características</h2>
 		<p>¿Sabes qué nos hace especial? Nos preocupamos por entender las prioridades del cubano para ofrecer un producto acorde a sus necesidades, y te traemos lo mejor de la internet siempre arriba de la bola.</p>
 
-		<div class="items style1 medium onscroll-fade-in">
+		<div class="items style1 medium">
 			<?php foreach ($features as $item) { ?>
 				<section>
 					<span class="icon solid style2 major <?= $item->icon ?>"></span>
@@ -59,7 +59,7 @@
 
 <!-- BRANDS -->
 
-<section id="brands" class="gallery style2 small onscroll-fade-in">
+<section id="brands" class="gallery style2 small">
 	<?php foreach ($dataSources as $item) { ?>
 		<article>
 			<div class="image">
@@ -142,7 +142,7 @@
 		<p>Somos un equipo pequeño, bien comprometido, y estamos orgullosos del trabajo que hacemos. En esta sección nos presentamos y nos ponemos a tu servicio. ¿En qué te podemos ayudar?</p>
 
 		<div class="content">
-			<div class="items style3 small onscroll-fade-in">
+			<div class="items style3 small">
 				<?php foreach ($teamMembers as $item) { ?>
 					<section>
 						<span class="image fit"><img src="/images/team/<?= $item->img ?>" alt="<?= $item->name ?>" /></span>

@@ -27,7 +27,7 @@
 <section id="features" class="wrapper style1 align-center">
 	<div class="inner">
 		<h2>Características</h2>
-		<p>Hay otras apps para citas en Cuba. ¿Sabes que nos hace especial?</p>
+		<p>¿Sabes que nos hace especial?</p>
 
 		<div class="items style1 small">
 			<section>
