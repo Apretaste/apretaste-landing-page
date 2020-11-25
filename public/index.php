@@ -26,9 +26,9 @@ define('TEMP_PATH', BASE_PATH . 'tmp/');
 // check and apply redirections
 include BASE_PATH . "configs/routes.php";
 if(isset($routes["$controller/$action"])) {
-	$vector = $routes["$controller/$action"];
-	$controller = $vector[0];
-	$action = $vector[1];
+	header("HTTP/1.1 301 Moved Permanently");
+	header("Location: /" . $routes["$controller/$action"]);
+	exit;
 }
 
 // add the autoload

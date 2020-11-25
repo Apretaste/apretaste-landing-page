@@ -1,10 +1,10 @@
 <?php
 
 // use this file to set up redirections routes
-// set a rule as "$controller/$action" and it's value in a vector
+// set the rule and values as a "controller/action" combination
 // if you are only matching the controller, pass "main" as action
 
 $routes = [
-	"descargar/main" => ["download", "main"],
-	"invite/main" => ["invitar", "main"],
+	"descargar/main" => "download",
+	"invite/main" => "invitar",
 ];
