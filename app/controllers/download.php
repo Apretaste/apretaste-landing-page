@@ -21,8 +21,8 @@ class Download
 		$Android = stripos($useragent, "Android"); 
 
 		// get the phone links
-		$linkApple = getDownloadLink('android');
-		$linkAndroid = getDownloadLink('ios');
+		$linkApple = getDownloadLink('ios');
+		$linkAndroid = getDownloadLink('android');
 
 		// redirect for iPhone
 		if($iPod || $iPad || $iPhone || $iOS) {
