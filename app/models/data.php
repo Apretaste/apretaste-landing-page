@@ -124,9 +124,33 @@ function getNewsScreenshots () {
 		(Object) ["image"=>"1.jpg", "title"=>"Escoge tus periódicos"],
 		(Object) ["image"=>"2.jpg", "title"=>"Revisa los titulares"],
 		(Object) ["image"=>"3.jpg", "title"=>"Lee las noticias"],
-		(Object) ["image"=>"5.jpg", "title"=>"Créate un perfil anónimo"],
 		(Object) ["image"=>"4.jpg", "title"=>"Comenta y debate"],
+		(Object) ["image"=>"5.jpg", "title"=>"Créate un perfil anónimo"],
 		(Object) ["image"=>"6.jpg", "title"=>"Haz amigos y socializa"]
+	];
+}
+
+// list of bolita screenshots
+//
+function getBolitaScreenshots () {
+	return [
+		(Object) ["image"=>"1.jpg", "title"=>"Revisa los resultados diarios"],
+		(Object) ["image"=>"2.jpg", "title"=>"Apréndete la charada"],
+		(Object) ["image"=>"3.jpg", "title"=>"Mira tus números de la suerte"],
+		(Object) ["image"=>"4.jpg", "title"=>"Un servicio lleno de opciones"],
+		(Object) ["image"=>"5.jpg", "title"=>"Juega a la bolita"],
+	];
+}
+
+// list of piropazo screenshots
+//
+function getPiropazoScreenshots () {
+	return [
+		(Object) ["image"=>"1.jpg", "title"=>"Dale Sí cuando alguien te guste, o dile que No para seguir buscando"],
+		(Object) ["image"=>"2.jpg", "title"=>"Envía flores a tus citas y asegurarte que nunca pasarás desapercibido"],
+		(Object) ["image"=>"3.jpg", "title"=>"Una vez que ambos digan Sí, chatea y encuentra a tu media naranja"],
+		(Object) ["image"=>"4.jpg", "title"=>"Ponte un corazón y haz que tu perfil se muestre con mucha más frecuencia"],
+		(Object) ["image"=>"5.jpg", "title"=>"Compra flores y corazones en nuestra y tienda y hazte todo un cyber-Romeo"],
 	];
 }
 

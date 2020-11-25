@@ -23,6 +23,14 @@ define('BASE_PATH', dirname(__DIR__) . DIRECTORY_SEPARATOR);
 define('APP_PATH', BASE_PATH . 'app/'); 
 define('TEMP_PATH', BASE_PATH . 'tmp/');
 
+// check and apply redirections
+include BASE_PATH . "configs/routes.php";
+if(isset($routes["$controller/$action"])) {
+	$vector = $routes["$controller/$action"];
+	$controller = $vector[0];
+	$action = $vector[1];
+}
+
 // add the autoload
 include BASE_PATH . "vendor/autoload.php";
 
