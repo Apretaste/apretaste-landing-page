@@ -7,4 +7,9 @@
 $routes = [
 	"descargar/main" => "download",
 	"invite/main" => "invitar",
+	"recargas/main" => "landing/recargas",
+	"noticias/main" => "landing/noticias",
+	"bolita/main" => "landing/bolita",
+	"piropazo/main" => "landing/piropazo",
+	"pizarra/main" => "landing/pizarra",
 ];

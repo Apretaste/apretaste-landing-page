@@ -2,13 +2,13 @@
 <html>
 	<head>
 		<!-- Metas -->
-		<title>Apretaste: <?= $title ?></title>
+		<title><?= empty($title) ? "Apretaste" : "Apretaste: $title" ?></title>
 		<link rel="canonical" href="https://www.apretaste.org">
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="Apretaste es la app social de todos los cubanos, para conocer e intercambiar con miles de personas, decir lo que piensas libremente, participar en sorteos, concursos y entretenimiento constante, buscar pareja, leer las noticias diariamente y más. Todo gratuitamente y con mínimo consumo de datos móviles.">
-		<meta name="keywords" content="apretaste, cuba, red social cuba, chat cuba, apretaste cuba, ">
+		<meta name="description" content="<?= empty($description) ? "" : $description ?>">
+		<meta name="keywords" content="<?= empty($keywords) ? "" : $keywords ?>">
 		<meta name="author" content="Salvi Pascual">
 
 		<!-- Icons -->
@@ -19,21 +19,20 @@
 		<!-- Twitter Card data -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@apretaste">
-		<meta name="twitter:title" content="Apretaste: Haz amigos, habla libremente.">
-		<meta name="twitter:description" content="Apretaste es la app social de todos los cubanos, para conocer e intercambiar con miles de personas, decir lo que piensas libremente, participar en sorteos, concursos y entretenimiento constante, buscar pareja, leer las noticias diariamente y más. Todo gratuitamente y con mínimo consumo de datos móviles.">
+		<meta name="twitter:title" content="<?= empty($title) ? "Apretaste" : "Apretaste: $title" ?>">
+		<meta name="twitter:description" content="<?= empty($description) ? "" : $description ?>">
 		<meta name="twitter:creator" content="@apretaste">
-		<meta name="twitter:image" content="/images/social.png">
+		<meta name="twitter:image" content="/images/feature/<?= empty($feature) ? "apretaste" : $feature ?>.png">
 
 		<!-- Open Graph data -->
 		<meta name="fb:app_id" content="285099284865702" />
 		<meta name="og:url" content="https://www.apretaste.org" />
 		<meta name="og:type" content="website" />
 		<meta name="og:locale" content="es_ES" />
-		<meta name="og:locale:alternate" content="en_US" />
 		<meta name="og:site_name" content="Apretaste" />
-		<meta name="og:title" content="Apretaste: Haz amigos, habla libremente." />
-		<meta name="og:description" content="Apretaste es la app social de todos los cubanos, para conocer e intercambiar con miles de personas, decir lo que piensas libremente, participar en sorteos, concursos y entretenimiento constante, buscar pareja, leer las noticias diariamente y más. Todo gratuitamente y con mínimo consumo de datos móviles." />
-		<meta name="og:image" content="/images/social.png" />
+		<meta name="og:title" content="<?= empty($title) ? "Apretaste" : "Apretaste: $title" ?>" />
+		<meta name="og:description" content="<?= empty($description) ? "" : $description ?>" />
+		<meta name="og:image" content="/images/feature/<?= empty($feature) ? "apretaste" : $feature ?>.png" />
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="/css/main.css" />

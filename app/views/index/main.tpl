@@ -7,7 +7,7 @@
 		<p>Un espacio para conocer e intercambiar entre miles de cubanos, decir lo que piensas, ganar premios geniales y mantenerte entretenido e informado. Todo gratuitamente, seguro, y con mínimo consumo de datos.</p>
 		<ul class="actions">
 			<li><a href="#download" class="button primary big wide icon solid fa-download smooth-scroll-middle">Descargar</a></li>
-			<li><a href="#invite" class="button big wide smooth-scroll-middle">Compartir con Cuba</a></li>
+			<li><a href="/invitar" class="button big wide">Compartir con Cuba</a></li>
 		</ul>
 	</div>
 	<div class="image">
