@@ -11,7 +11,7 @@
 		</ul>
 	</div>
 	<div class="image">
-		<img src="/images/home.jpg" alt="" />
+		<img src="/images/phone/home.jpg" alt="Home screen" />
 	</div>
 </section>
 
@@ -27,7 +27,7 @@
 		<?php foreach ($screenshots as $item) { ?>
 			<article>
 				<div class="image">
-					<img src="/images/screens/<?= $item->image ?>" alt="" />
+					<img src="/images/screens/apretaste/<?= $item->image ?>" alt="<?= $item->title ?>" />
 				</div>
 				<div class="caption">
 					<h3><?= $item->title ?></h3>
@@ -86,7 +86,7 @@
 
 	</div>
 	<div class="image">
-		<img src="/images/apretin.png" alt="" />
+		<img src="/images/apretin.png" alt="Apretín" />
 	</div>
 </section>
 
@@ -113,7 +113,7 @@
 		<!-- random review -->
 		<div class="review align-left">
 			<span class="image left" style="background-color:<?= $userReview->avatarColor ?>">
-				<img src="/images/avatars/<?= $userReview->avatar ?>.png" alt="">
+				<img src="/images/avatars/<?= $userReview->avatar ?>.png" alt="<?= $userReview->username ?>">
 			</span>
 			<h2><?= $userReview->username ?></h2>
 			<p><?= $userReview->text ?></p>
@@ -175,6 +175,6 @@
 		</ul>
 	</div>
 	<div class="image">
-		<img src="/images/apretin_pointing.jpg" alt="" />
+		<img src="/images/phone/apretin_pointing.jpg" alt="Apretín" />
 	</div>
 </section>

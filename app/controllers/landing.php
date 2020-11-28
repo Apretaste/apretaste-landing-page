@@ -71,4 +71,20 @@ class Landing
 		$this->view->data->getPiropazoScreenshots = getPiropazoScreenshots();
 		$this->view->setLayout('main');
 	}
+
+	/**
+	 * pizarra landing page
+	 */
+	public function pizarra()
+	{
+		// include the data
+		require APP_PATH . 'models/data.php';
+
+		// send data to the view
+		$this->view->data->title = "La red social y de amistad de Cuba";
+		$this->view->data->navigation = ["download"];
+		$this->view->data->hideFooter = true;
+		$this->view->data->getPizarraScreenshots = getPizarraScreenshots();
+		$this->view->setLayout('main');
+	}
 }

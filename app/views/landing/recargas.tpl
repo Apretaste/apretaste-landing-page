@@ -22,6 +22,6 @@
 		</form>
 	</div>
 	<div class="image">
-		<img src="/images/apretin_etecsa.jpg" alt="" />
+		<img src="/images/phone/apretin_etecsa.jpg" alt="Apretín" />
 	</div>
 </section>

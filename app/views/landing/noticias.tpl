@@ -13,7 +13,7 @@
 	<?php foreach ($newsScreenshots as $item) { ?>
 		<article>
 			<div class="image">
-				<img src="/images/news/<?= $item->image ?>" alt="" />
+				<img src="/images/screens/noticias/<?= $item->image ?>" alt="<?= $item->title ?>" />
 			</div>
 			<div class="caption">
 				<h3><?= $item->title ?></h3>
@@ -48,6 +48,6 @@
 		</ul>
 	</div>
 	<div class="image">
-		<img src="/images/apretin_pointing.jpg" alt="" />
+		<img src="/images/phone/apretin_pointing.jpg" alt="Apretín" />
 	</div>
 </section>

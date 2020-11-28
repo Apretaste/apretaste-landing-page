@@ -4,14 +4,14 @@
 //
 function getScreenshots () {
 	return [
-		(Object) ["image"=>"1.png", "title"=>"¡Sé tu mismo!", "text"=>"Habla sin pelos en la lengua con miles de cubanos, y comparte lo que piensas."],
-		(Object) ["image"=>"2.png", "title"=>"Date a conocer", "text"=>"Crea un perfil anónimo o público. Ponte un avatar y haz que otros te conozcan."],
-		(Object) ["image"=>"3.png", "title"=>"Crece tu red", "text"=>"Envía solicitudes y crece tu círculo de amigos. Comparte en público o privado."],
-		(Object) ["image"=>"4.png", "title"=>"Habla en PV", "text"=>"Conversa con tus amigos en privado, y forja amistades que duren toda la vida."],
-		(Object) ["image"=>"5.png", "title"=>"Hazte popular", "text"=>"Gana experiencia usando la app, sube de nivel y sé el más popular del ranking."],
-		(Object) ["image"=>"6.png", "title"=>"Busca el amor", "text"=>"¿Soltero? Encuentra tu media naranja en Piropazo: nuestro servicio de parejas."],
-		(Object) ["image"=>"7.png", "title"=>"Ponte al día", "text"=>"Consulta las noticias de la prensa más leída (independiente y oficial) de Cuba."],
-		(Object) ["image"=>"8.png", "title"=>"¡Y mucho más!", "text"=>"Disfruta decenas de servicios entretenidos y útiles para mantenerte informado."]
+		(Object) ["image"=>"1.jpg", "title"=>"¡Sé tu mismo!", "text"=>"Habla sin pelos en la lengua con miles de cubanos, y comparte lo que piensas."],
+		(Object) ["image"=>"2.jpg", "title"=>"Date a conocer", "text"=>"Crea un perfil anónimo o público. Ponte un avatar y haz que otros te conozcan."],
+		(Object) ["image"=>"3.jpg", "title"=>"Crece tu red", "text"=>"Envía solicitudes y crece tu círculo de amigos. Comparte en público o privado."],
+		(Object) ["image"=>"4.jpg", "title"=>"Habla en PV", "text"=>"Conversa con tus amigos en privado, y forja amistades que duren toda la vida."],
+		(Object) ["image"=>"5.jpg", "title"=>"Hazte popular", "text"=>"Gana experiencia usando la app, sube de nivel y sé el más popular del ranking."],
+		(Object) ["image"=>"6.jpg", "title"=>"Busca el amor", "text"=>"¿Soltero? Encuentra tu media naranja en Piropazo: nuestro servicio de parejas."],
+		(Object) ["image"=>"7.jpg", "title"=>"Ponte al día", "text"=>"Consulta las noticias de la prensa más leída (independiente y oficial) de Cuba."],
+		(Object) ["image"=>"8.jpg", "title"=>"¡Y mucho más!", "text"=>"Disfruta decenas de servicios entretenidos y útiles para mantenerte informado."]
 	];
 }
 
@@ -151,6 +151,19 @@ function getPiropazoScreenshots () {
 		(Object) ["image"=>"3.jpg", "title"=>"Una vez que ambos digan Sí, chatea y encuentra a tu media naranja"],
 		(Object) ["image"=>"4.jpg", "title"=>"Ponte un corazón y haz que tu perfil se muestre con mucha más frecuencia"],
 		(Object) ["image"=>"5.jpg", "title"=>"Compra flores y corazones en nuestra y tienda y hazte todo un cyber-Romeo"],
+	];
+}
+
+// list of pizarra screenshots
+//
+function getPizarraScreenshots () {
+	return [
+		(Object) ["image"=>"1.jpg", "title"=>"Revisa las notas de tus amigos, o busca notas generales"],
+		(Object) ["image"=>"2.jpg", "title"=>"Abre las imágenes, a pantalla completa, sin gastar datos"],
+		(Object) ["image"=>"3.jpg", "title"=>"Comenta en las notas de otros, deja tu opinión"],
+		(Object) ["image"=>"4.jpg", "title"=>"Publica una nueva nota, deja saber al mundo como piensas"],
+		(Object) ["image"=>"5.jpg", "title"=>"Revisa los usuarios más populares y los temas más calientes"],
+		(Object) ["image"=>"6.jpg", "title"=>"Configura tu perfil privado, agrega tu avatar y date a conocer"],
 	];
 }
 

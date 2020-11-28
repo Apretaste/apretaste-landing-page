@@ -31,6 +31,6 @@
 		</form>
 	</div>
 	<div class="image">
-		<img src="/images/apretin_waving.jpg" alt="" />
+		<img src="/images/phone/apretin_waving.jpg" alt="Apretín" />
 	</div>
 </section>

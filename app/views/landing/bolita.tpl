@@ -13,7 +13,7 @@
 	<?php foreach ($getBolitaScreenshots as $item) { ?>
 		<article>
 			<div class="image">
-				<img src="/images/bolita/<?= $item->image ?>" alt="" />
+				<img src="/images/screens/bolita/<?= $item->image ?>" alt="<?= $item->title ?>" />
 			</div>
 			<div class="caption">
 				<h3><?= $item->title ?></h3>
@@ -34,6 +34,6 @@
 		</ul>
 	</div>
 	<div class="image">
-		<img src="/images/apretin_pointing.jpg" alt="" />
+		<img src="/images/phone/apretin_pointing.jpg" alt="Apretín" />
 	</div>
 </section>

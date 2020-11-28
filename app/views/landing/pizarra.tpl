@@ -2,18 +2,18 @@
 
 <section id="home" class="wrapper style1">
 	<div class="inner">
-		<h1>La red de parejas más grande de Cuba.</h1>
-		<p>¿Estás buscando a tu media naranja? Entra a Piropazo: la red de parejas más divertida, interactiva y con mayor cantidad de cuban@s.</p>
+		<h1>La red social y de amistad de Cuba.</h1>
+		<p>Haz amigos, entérate de las #tendencias, gana reputación, y habla lo que quieras, como quieras, y con quien quieras, de manera anónima y segura.</p>
 	</div>
 </section>
 
 <!-- SCREENSHOTS -->
 
 <section id="screenshots" class="gallery style2 small">
-	<?php foreach ($getPiropazoScreenshots as $item) { ?>
+	<?php foreach ($getPizarraScreenshots as $item) { ?>
 		<article>
 			<div class="image">
-				<img src="/images/screens/piropazo/<?= $item->image ?>" alt="<?= $item->title ?>" />
+				<img src="/images/screens/pizarra/<?= $item->image ?>" alt="<?= $item->title ?>" />
 			</div>
 			<div class="caption">
 				<h3><?= $item->title ?></h3>
@@ -31,24 +31,24 @@
 
 		<div class="items style1 small">
 			<section>
-				<span class="icon style2 major fa-thumbs-up"></span>
-				<h3>Fácil de usar</h3>
-				<p>Dale "Sí" cuando alguien te guste, o "No" para seguir buscando.</p>
+				<span class="icon solid style2 major fa-bullhorn"></span>
+				<h3>Habla libremente</h3>
+				<p>Exprésate anónimamente. Dí lo que piensas y conoce gente como tú.</p>
 			</section>
 			<section>
-				<span class="icon solid style2 major fa-fan"></span>
-				<h3>Envía Flores</h3>
-				<p>Envía flores a tus citas y asegúrate que nunca pasas desapercibido.</p>
+				<span class="icon solid style2 major fa-fire"></span>
+				<h3>Hazte popular</h3>
+				<p>Propón un tema, busca seguidores, crea debate y gana reputación.</p>
 			</section>
 			<section>
-				<span class="icon solid style2 major fa-comment-slash"></span>
-				<h3>Nada de SPAM</h3>
-				<p>Habla con tus parejas solo cuando ambos digan "Sí".</p>
+				<span class="icon solid style2 major fa-address-card"></span>
+				<h3>Créate un perfil</h3>
+				<p>Coloca un perfil privado y ponte un avatar que te represente.</p>
 			</section>
 			<section>
-				<span class="icon solid style2 major fa-users"></span>
-				<h3>250K+ Cubanos</h3>
-				<p>Accede a la app social con mayor cantidad de cubanos en línea.</p>
+				<span class="icon solid style2 major fa-shield-alt"></span>
+				<h3>Navega seguro</h3>
+				<p>Todas tus peticiones y tu data viajan encriptadas y seguras.</p>
 			</section>
 		</div>
 	</div>
@@ -59,13 +59,13 @@
 <section id="download" class="spotlight style3 android invert orient-right content-align-left image-position-center">
 	<div class="content">
 		<h2>¡Descarga la App!</h2>
-		<p>Descarga la app de Apretaste, entra al servicio Piropazo y comienza a buscar a tu media naranja.</p>
+		<p>Descarga la app de Apretaste y comienza a hacer amigos, generar segidores y hablar como te dé la gana.</p>
 		<ul class="actions">
 			<li><a onclick="sendAnalyticsEvent('download_btn', 'android')" href="<?= getDownloadLink('android') ?>" target="_blank" class="button primary icon brands fa-android">Android</a></li>
 			<li><a onclick="sendAnalyticsEvent('download_btn', 'ios')" href="<?= getDownloadLink('ios') ?>" target="_blank" class="button primary icon brands fa-apple">iPhone</a></li>
 		</ul>
 	</div>
 	<div class="image">
-		<img src="/images/phone/apretin_piropazo.jpg" alt="Apretín" />
+		<img src="/images/phone/apretin_pointing.jpg" alt="Apretín" />
 	</div>
 </section>

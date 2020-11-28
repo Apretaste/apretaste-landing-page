@@ -9,7 +9,7 @@
 		</ul>
 	</div>
 	<div class="image">
-		<img src="/images/apretin_pointing.jpg" alt="" />
+		<img src="/images/phone/apretin_pointing.jpg" alt="Apretín" />
 	</div>
 </section>
 
