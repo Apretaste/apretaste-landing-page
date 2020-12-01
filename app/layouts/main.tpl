@@ -153,13 +153,18 @@
 		</div>
 
 		<!-- Scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdn.tutorialjinni.com/jquery.scrollex/0.2.1/jquery.scrollex.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery.scrolly/jquery.scrolly.min.js"></script>
+		<script src="/js/browser.min.js"></script>
+		<script src="/js/breakpoints.min.js"></script>
+		<script src="/js/main.js"></script>
+<!--
 		<script src="/js/jquery.min.js"></script>
 		<script src="/js/jquery.scrollex.min.js"></script>
 		<script src="/js/jquery.scrolly.min.js"></script>
-		<script src="/js/browser.min.js"></script>
-		<script src="/js/breakpoints.min.js"></script>
 		<script src="/js/util.js"></script>
-		<script src="/js/main.js"></script>
+-->
 
 		<!-- google analytics -->
 		<?php if(IS_PRODUCTION) { ?>
