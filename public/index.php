@@ -19,6 +19,7 @@ $controller = isset($_GET['c']) ? $_GET['c'] : "index";
 $action = isset($_GET['a']) ? $_GET['a'] : "main";
 
 // get global 
+define('HTTP_PATH', $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
 define('BASE_PATH', dirname(__DIR__) . DIRECTORY_SEPARATOR);
 define('APP_PATH', BASE_PATH . 'app/'); 
 define('TEMP_PATH', BASE_PATH . 'tmp/');

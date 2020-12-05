@@ -4,9 +4,9 @@
 		<!-- Metas -->
 		<title><?= empty($title) ? "Apretaste" : "Apretaste: $title" ?></title>
 		<link rel="canonical" href="https://www.apretaste.org">
-		<meta charset="utf-8" />
+		<meta charset="utf-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 		<meta name="description" content="<?= empty($description) ? "" : $description ?>">
 		<meta name="keywords" content="<?= empty($keywords) ? "" : $keywords ?>">
 		<meta name="author" content="Salvi Pascual">
@@ -25,19 +25,21 @@
 		<meta name="twitter:image" content="/images/feature/<?= empty($feature) ? "apretaste" : $feature ?>.png">
 
 		<!-- Open Graph data -->
-		<meta name="fb:app_id" content="285099284865702" />
-		<meta name="og:url" content="https://www.apretaste.org" />
-		<meta name="og:type" content="website" />
-		<meta name="og:locale" content="es_ES" />
-		<meta name="og:site_name" content="Apretaste" />
-		<meta name="og:title" content="<?= empty($title) ? "Apretaste" : "Apretaste: $title" ?>" />
-		<meta name="og:description" content="<?= empty($description) ? "" : $description ?>" />
-		<meta name="og:image" content="/images/feature/<?= empty($feature) ? "apretaste" : $feature ?>.png" />
+		<meta property="fb:app_id" content="285099284865702"/>
+		<meta property="fb:app:id" content="285099284865702"/>
+		<meta property="og:url" content="<?= HTTP_PATH ?>"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:locale" content="es_ES"/>
+		<meta property="og:site_name" content="Apretaste: La red de amistad de Cuba"/>
+		<meta property="og:title" content="<?= empty($title) ? "Apretaste" : "Apretaste: $title" ?>"/>
+		<meta property="og:description" content="<?= empty($description) ? "" : $description ?>"/>
+		<meta property="og:image" content="/images/feature/<?= empty($feature) ? "apretaste" : $feature ?>.png"/>
+		<meta property="og:image:alt" content="<?= empty($title) ? "Apretaste" : "$title" ?>"/>
 
 		<!-- Styles -->
-		<link rel="stylesheet" href="/css/main.css" />
-		<link rel="stylesheet" href="/css/custom.css" />
-		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/css/main.css"/>
+		<link rel="stylesheet" href="/css/custom.css"/>
+		<noscript><link rel="stylesheet" href="/css/noscript.css"/></noscript>
 
 		<!-- Facebook Pixel Code -->
 		<?php if(IS_PRODUCTION) { ?>
