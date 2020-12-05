@@ -26,14 +26,13 @@
 
 		<!-- Open Graph data -->
 		<meta property="fb:app_id" content="285099284865702"/>
-		<meta property="fb:app:id" content="285099284865702"/>
-		<meta property="og:url" content="<?= HTTP_PATH ?>"/>
+		<meta property="og:url" content="<?= HTTP_FULL_PATH ?>"/>
 		<meta property="og:type" content="website"/>
 		<meta property="og:locale" content="es_ES"/>
 		<meta property="og:site_name" content="Apretaste: La red de amistad de Cuba"/>
 		<meta property="og:title" content="<?= empty($title) ? "Apretaste" : "Apretaste: $title" ?>"/>
 		<meta property="og:description" content="<?= empty($description) ? "" : $description ?>"/>
-		<meta property="og:image" content="/images/feature/<?= empty($feature) ? "apretaste" : $feature ?>.png"/>
+		<meta property="og:image" content="<?= HTTP_BASE_PATH ?>/images/feature/<?= empty($feature) ? "apretaste" : $feature ?>.png"/>
 		<meta property="og:image:alt" content="<?= empty($title) ? "Apretaste" : "$title" ?>"/>
 
 		<!-- Styles -->
