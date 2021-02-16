@@ -91,7 +91,7 @@
 									<li>
 										<span class="icon brands style1 fa-whatsapp"></span>
 										<span class="icon solid style1 fa-phone"></span>
-										<span class="label padding-left-tiny">+1 (305) 457-1656
+										<span class="label padding-left-tiny">+1 (510) 457-1656
 									</li>
 									<li>
 										<span class="icon solid style1 fa-envelope"></span>
