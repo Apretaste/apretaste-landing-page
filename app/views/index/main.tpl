@@ -3,7 +3,7 @@
 <section id="main" class="banner style4 android orient-right content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
 	<div class="content">
 		<img class="logo" src="/images/apretaste_logo_300x108.png" alt="Apretaste Logo"/>
-		<p class="major">Apretaste es la red social y de amistad más divertida, libre, asequible y segura; hecha con ❤ para todos los cubanos.</p>
+		<p class="major">Apretaste es la red de amistad más divertida, libre, asequible y segura; hecha con ❤ para todos los cubanos.</p>
 		<p>Un espacio para conocer e intercambiar entre miles de cubanos, decir lo que piensas, ganar premios geniales y mantenerte entretenido e informado. Todo gratuitamente, seguro, y con mínimo consumo de datos.</p>
 		<ul class="actions">
 			<li><a href="#download" class="button primary big wide icon solid fa-download smooth-scroll-middle">Descargar</a></li>
