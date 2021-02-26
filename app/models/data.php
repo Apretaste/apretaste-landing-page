@@ -108,7 +108,7 @@ function getMediaMentions () {
 function getTeamMembers () {
 	return [
 		(Object) ["img"=>"salvi.jpg", "name"=>"Salvi Pascual", "position"=>"Executive Director", "email"=>"salvi@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/salvipascual/"],
-		(Object) ["img"=>"rafa.jpg", "name"=>"Rafael Rodríguez", "position"=>"Back-End Developer", "email"=>"rafa@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/rafageist/"],
+		(Object) ["img"=>"rafa.jpg", "name"=>"Rafa Rodríguez", "position"=>"Back-End Developer", "email"=>"rafa@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/rafageist/"],
 		(Object) ["img"=>"ricardo.jpg", "name"=>"Ricardo Jimenez", "position"=>"Android Developer", "email"=>"ricardo@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/ricardo-jimenez-31a59512b"],
 		(Object) ["img"=>"edgar.jpg", "name"=>"Edgar Hernández", "position"=>"Representante de Soporte", "email"=>"edgar@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/ed188/"],
 		(Object) ["img"=>"orisbel.jpg", "name"=>"Orisbel Ríos", "position"=>"Experto en Comunicaciones", "email"=>"orisbel@apretaste.org", "linkedin"=>"https://www.linkedin.com/in/orisbel-rios-gonz%C3%A1lez-085a85151/"],
