@@ -13,17 +13,12 @@ class Landing
 	}
 
 	/**
-	 * recargas landing page
+	 * recargas landing page (deleted)
 	 */
 	public function recargas()
 	{
-		// send data to the view
-		$this->view->data->title = "Invita a tu gente a ganar Recargas";
-		$this->view->data->description = "Encuentra juegos, noticias, interacción social libre, y dos recargas Cubacel gratis al día. Apretaste es la red de amistad más divertida y segura; hecha con amor para los cubanos.";
-		$this->view->data->keywords = "nauta cuba,recarga doble a cuba,recargas a cuba nauta,recarga internacional,rebtel recarga,recargas a cuba ding,recargas cubacel,recarga rapido,recarga a cubatel,recarga de celular a cuba desde mÃ©xico,recargas baratas a cuba,recarga cubacel hoy,recargas a cuba fonoma,recargar celular en cuba,recargas cubacel ofertas,recargas cubacel ding,recargas cuba promocion,recargas a cuba rebtel,recargas cubacel online,recargas cuba,recargar celular a cuba,recarga de internet,www recarga,recargas a cuba gratis,recargas cuba rebtel,cubacel cuba,recargas cuba ding,recargas islacel,recargas a cuba en dolares,triple recarga cuba,recargas cuballama,fonoma recargas,dimecuba triple recarga,cuando hay recargas a cuba,ding recargas a cuba,ding recargas,recargas a cuba,hola america recargas a cuba,cubacel promocion,recarga cuba internacional,recargas a cuba cuballama";
-		$this->view->data->feature = "recargas";
-		$this->view->data->hideFooter = true;
-		$this->view->setLayout('main');
+		header("Location: /invitar");
+		exit;
 	}
 
 	/**

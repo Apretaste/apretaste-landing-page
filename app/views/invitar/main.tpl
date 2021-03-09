@@ -8,7 +8,6 @@
 			<li>Hacer amig@s por toda Cuba y el mundo, y chatear.</li>
 			<li>Estar al tanto de lo que pasa dentro y fuera de Cuba.</li>
 			<li>Hablar libremente, de manera anónima y segura.</li>
-			<li>Obtener hasta dos <b>recargas Cubacel gratis</b> cada día.</li>
 			<li>Participar en concursos, rifas, juegos y más diversión.</li>
 			<li>Revisar decenas de servicios entretenidos y útiles...</li>
 		</ul>
