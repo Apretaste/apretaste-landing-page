@@ -1,8 +1,8 @@
 <?php
 
+use Apretaste\WebRequest;
 use Framework\View;
 use Framework\Config;
-use Framework\Request;
 use Framework\Database;
 
 // localize timezone and dates
@@ -57,7 +57,7 @@ if(!method_exists($page, $action)) $action = 'main';
 $page->view = new View($controller, $action);
 
 // add an input handler
-$page->request = new Request();
+$page->request = new WebRequest();
 $page->request->params = $params;
 
 // run the controller
