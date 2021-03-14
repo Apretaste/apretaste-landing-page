@@ -172,4 +172,5 @@ function getPizarraScreenshots () {
 function getDownloadLink ($os) {
 	if($os == 'android') return 'https://play.google.com/store/apps/details?id=com.apretaste.apretaste';
 	if($os == 'ios') return 'https://apps.apple.com/app/id1488232603';
+	if($os == 'apk') return 'http://tiny.cc/APCUBA';
 }

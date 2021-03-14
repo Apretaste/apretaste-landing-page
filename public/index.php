@@ -17,6 +17,7 @@ set_error_handler(function($number, $string, $file, $line) {
 // get page and action from the url
 $controller = isset($_GET['c']) ? $_GET['c'] : "index";
 $action = isset($_GET['a']) ? $_GET['a'] : "main";
+$params = isset($_GET['p']) ? $_GET['p'] : "";
 
 // get global
 define('HTTP_BASE_PATH', $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST']);
@@ -57,6 +58,7 @@ $page->view = new View($controller, $action);
 
 // add an input handler
 $page->request = new Request();
+$page->request->params = $params;
 
 // run the controller
 $page->$action();

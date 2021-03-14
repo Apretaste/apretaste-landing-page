@@ -2,6 +2,7 @@ RewriteEngine On
 ExpiresActive On
 
 RewriteBase /
+RewriteRule ^(\w+)/(\w+)/(\w+)/?$ index.php?c=$1&a=$2&p=$3 [L]
 RewriteRule ^(\w+)/(\w+)/?$ index.php?c=$1&a=$2 [L]
 RewriteRule ^(\w+)/?$ index.php?c=$1 [L]
 

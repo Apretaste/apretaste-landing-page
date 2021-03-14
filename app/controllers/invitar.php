@@ -1,7 +1,6 @@
 <?php 
 
 use Apretaste\Email;
-use Framework\Config;
 use Framework\Database;
 
 class Invitar 

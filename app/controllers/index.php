@@ -1,7 +1,5 @@
 <?php 
 
-use Framework\Database;
-
 class Index 
 {
 	public function main()
