@@ -19,7 +19,7 @@
 		// redirect to the Play Store
 		if(/Android/i.test(navigator.userAgent) ) {
 			sendAnalyticsEvent('download_btn', 'android');
-			window.location = '<?= $android ?>';
+			window.location = <?= $directApkDownload ?> ? '<?= $apk ?>' : '<?= $android ?>';
 			throw new Error("Stop!");
 		}
 

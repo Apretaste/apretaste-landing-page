@@ -17,7 +17,7 @@ class Join
 	/**
 	 * claim an invite
 	 */
-	public function me()
+	public function user()
 	{
 		// get the person
 		$person = Person::find($this->request->params);
@@ -38,7 +38,7 @@ class Join
 		$this->view->data->feature = "apretaste";
 		$this->view->data->person = $person;
 		$this->view->data->hideFooter = true;
-		$this->view->setTemplate('me');
+		$this->view->setTemplate('user');
 		$this->view->setLayout('main');
 	}
 
@@ -52,9 +52,12 @@ class Join
 		$username = $this->request->get('username');
 		$email = $this->request->get('email');
 
+		// check if the email is not linked to an existing account
+		$emailAlreadyExist = Database::query("SELECT COUNT(id) AS cnt FROM person WHERE email = '$email'")[0]->cnt > 0;
+
 		// get back if invalid email or inviter data
-		if(empty($id) || empty($username) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-			header("Location: /join/me/$username");
+		if(empty($id) || empty($username) || !filter_var($email, FILTER_VALIDATE_EMAIL) || $emailAlreadyExist) {
+			header("Location: /join/$username");
 			exit;
 		}
 
