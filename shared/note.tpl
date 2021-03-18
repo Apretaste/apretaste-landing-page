@@ -3,11 +3,22 @@
 
 {{head
 <meta property="og:title" content="@{$profile.username} - {$profile.fullName}">
+<meta property="twitter:title" content="@{$profile.username} - {$profile.fullName}">
 <meta property="og:description" content="{$note.text}">
 ?$note.image
 <meta property="og:image" content="https://manage.apretaste.org/shared/content/pizarra/{$note.image}">
+<meta property="twitter:image" content="https://manage.apretaste.org/shared/content/pizarra/{$note.image}">
 $note.image?
 <meta property="og:url" content="https://shared.apretaste.org/note/{$note.hash}">
+<meta property="twitter:site" content="@apretaste">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@apretaste">
+<meta property="fb:app_id" content="285099284865702"/>
+<meta name="twitter:description" content="{$note.text}
+
+{$note.text}
+">
+
 head}}
 
 {{body
