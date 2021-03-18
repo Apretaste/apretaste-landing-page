@@ -16,7 +16,7 @@ $note.image?
 <meta property="fb:app_id" content="285099284865702"/>
 <meta name="twitter:description" content="{$note.text}
 
-{$note.text}
+https://manage.apretaste.org/shared/content/pizarra/{$note.image}
 ">
 
 head}}
