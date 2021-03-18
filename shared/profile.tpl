@@ -11,7 +11,7 @@ $profile.picture?
 head}}
 
 {{body
-<div style="margin: auto; width: 400px; border-radius: 10px; border: 1px solid green; padding: 20px; text-align: center; ">
+<div style="margin: auto; width: 400px; border-radius: 10px; border: 1px solid green; padding: 20px; text-align: center; margin-bottom: 100px;">
     ?$profile.picture
     <img src="https://manage.apretaste.org/shared/profile/{$profile.picture}" style="width: 100%;border-top-left-radius: 10px;border-top-right-radius: 10px;">
     $profile.picture?
