@@ -12,20 +12,21 @@ head}}
 
 {{body
 
-<div style="margin: auto;
-width: 400px;
-border-radius: 10px;
-border: 1px solid green;
-padding: 20px;
-text-align: center;">
-    ?$note.image
-    <img src="https://manage.apretaste.org/shared/content/pizarra/{$note.image}" style="width: 100%;
+<div style="margin: auto;width: 400px;">
+    ?$profile.picture
+    <img src="https://manage.apretaste.org/shared/profile/{$profile.picture}" style="display: inline-block;vertical-align: top;width: 36px;height: 36px;border-radius: 18px;">
+    $profile.picture?
+    <div style="margin-left: 32px; border-radius: 10px;border: 1px solid green;padding: 20px;text-align: center;">
+        ?$note.image
+        <img src="https://manage.apretaste.org/shared/content/pizarra/{$note.image}" style="width: 100%;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;" />
-    $note.image?
-    <p><a href ="/{$profile.username}">@{$profile.username}</a></p>
-    <p>{$note.text}</p>
+        $note.image?
+        <p><a href ="/{$profile.username}">@{$profile.username}</a></p>
+        <p>{$note.text}</p>
 
+    </div>
 </div>
+
 
 body}}
