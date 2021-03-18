@@ -2,8 +2,8 @@
 {% layout %}
 
 {{head
-<meta property="og:title" content="@{$person.username} - {$person.fullName}">
-<meta property="og:description" content="{$person.aboutMe}">
+<meta property="og:title" content="@{$profile.username} - {$profile.fullName}">
+<meta property="og:description" content="{$profile.aboutMe}">
 <meta property="og:image" content="https://manage.apretaste.org/shared/profile/{$profile.picture}">
 <meta property="og:url" content="https://shared.apretaste.org/profile/">
 head}}
