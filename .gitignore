@@ -2,6 +2,7 @@ tmp/
 logs/
 vendor/
 classes/
+classes
 configs/config.ini
 composer.lock
 .idea
