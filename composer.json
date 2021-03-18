@@ -7,6 +7,8 @@
 	},
 	"require": {
 		"paypal/paypal-checkout-sdk": "1.0.1",
-		"nette/mail": "^2.4"
+		"nette/mail": "^2.4",
+		"divengine/ways": "^2.4",
+		"divengine/div": "^5.1"
 	}
 }
