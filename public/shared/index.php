@@ -1,7 +1,7 @@
 <?php
 
-include "../vendor/autoload.php";
-define ('PACKAGES', __DIR__."/shared/");
+include "../../vendor/autoload.php";
+define ('PACKAGES', __DIR__);
 
 use divengine\ways;
 use divengine\div;

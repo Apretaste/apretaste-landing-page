@@ -2,15 +2,10 @@ RewriteEngine On
 ExpiresActive On
 
 RewriteBase /
-RewriteCond %{REQUEST_URI} !^/shared.*$
 RewriteRule ^join/submit/?$ index.php?c=join&a=submit [L]
 RewriteRule ^join/(\w+)/?$ index.php?c=join&a=user&p=$1 [L]
 RewriteRule ^(\w+)/(\w+)/?$ index.php?c=$1&a=$2 [L]
 RewriteRule ^(\w+)/?$ index.php?c=$1 [L]
-
-RewriteBase /secret/
-RewriteCond %{REQUEST_URI} !^shared.php.*$
-RewriteRule ^((?s).*)/?$ shared.php?_url=/$1 [QSA,L]
 
 ExpiresByType image/jpg "access 1 year"
 ExpiresByType image/jpeg "access 1 year"
