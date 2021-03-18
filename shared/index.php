@@ -38,7 +38,7 @@ ways::listen("/{username}", function($data, $args) {
 	]);
 });
 
-ways::listen("/pizarra/{hash}", function($data, $args) {
+ways::listen("/note/{hash}", function($data, $args) {
 
 	$note = Database::queryFirst("SELECT * FROM _pizarra_notes WHERE hash = '{$args['hash']}';");
 

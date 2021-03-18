@@ -23,7 +23,7 @@ text-align: center;">
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;" />
     $note.image?
-    <p>@{$profile.username}</p>
+    <p><a href ="/{$profile.username}">@{$profile.username}</a></p>
     <p>{$note.text}</p>
 
 </div>
