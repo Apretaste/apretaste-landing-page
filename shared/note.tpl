@@ -5,7 +5,7 @@
 <meta property="og:title" content="@{$profile.username} - {$profile.fullName}">
 <meta property="og:description" content="{$note.text}">
 ?$note.image
-<meta property="og:image" content="https://manage.apretaste.org/note/{$note.image}">
+<meta property="og:image" content="https://manage.apretaste.org/shared/content/pizarra/{$note.image}">
 $note.image?
 <meta property="og:url" content="https://shared.apretaste.org/note/{$note.hash}">
 head}}
