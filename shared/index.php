@@ -10,7 +10,7 @@ use Apretaste\Person;
 
 ways::listen("/profile/{hash}", function($data, $args) {
 
-	$profile = Database::queryFirst("SELECT id FROM person WHETE hash = '{$args['hash']}';");
+	$profile = Database::queryFirst("SELECT id FROM person WHERE hash = '{$args['hash']}';");
 	$person = Person::find($profile->id);
 
 	echo new div('profile', [
