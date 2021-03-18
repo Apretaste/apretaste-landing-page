@@ -1,9 +1,9 @@
 {% layout %}
 {{body
 
-<div style="margin:auto;">
-    <img src="{$profile.picture}" />
-    <p>@{$person.username}</p>
+<div style="margin:auto; width: 400px; border-radius: 10px; border: 1px solid green;">
+    <img src="https://manage.apretaste.org/shared/profile/{$profile.picture}.jpg" />
+    <p>@{$profile.username}</p>
     <p>{$profile.aboutMe}</p>
 </div>
 
