@@ -29,10 +29,9 @@ define('TEMP_PATH', BASE_PATH . 'tmp/');
 define('IS_PRODUCTION', Config::pick('general')['tier'] === 'prod');
 define('IS_HOME_PAGE', true);
 
-ways::listen("/profile/{hash}", function($data, $args) {
+ways::listen("/profile/{username}", function($data, $args) {
 
-	$profile = Database::queryFirst("SELECT id FROM person WHERE hash = '{$args['hash']}';");
-	$person = Person::find($profile->id);
+	$person = Person::find($args['username']);
 
 	echo new div('profile', [
 		'profile' => $person
