@@ -12,7 +12,7 @@ head}}
 
 {{body
 
-<div style="margin: auto;width: 400px;">
+<div style="margin: auto;width: 400px; margin-bottom: 100px;">
     ?$profile.picture
     <a href ="/{$profile.username}">
         <img src="https://manage.apretaste.org/shared/profile/{$profile.picture}" style="float:left;display: inline-block;vertical-align: top;width: 36px;height: 36px;border-radius: 18px;">
