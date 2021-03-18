@@ -27,9 +27,7 @@ define('TEMP_PATH', BASE_PATH . 'tmp/');
 
 // define the environment
 define('IS_PRODUCTION', Config::pick('general')['tier'] === 'prod');
-define('IS_HOME_PAGE', $controller == 'index');
-
-
+define('IS_HOME_PAGE', true);
 
 ways::listen("/profile/{hash}", function($data, $args) {
 
