@@ -21,9 +21,6 @@
                     <li><a onclick="sendAnalyticsEvent('download_btn', 'web')" href="https://app.apretaste.org/" target="_blank" class="button primary icon solid fa-globe">Versión Web</a></li>
                 </ul>
             </div>
-            <div class="image">
-                <img src="/images/phone/apretin_pointing.jpg" alt="Apretín" />
-            </div>
         </section>
     </div>
     <!-- google analytics -->
