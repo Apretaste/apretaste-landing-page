@@ -29,13 +29,28 @@ define('TEMP_PATH', BASE_PATH . 'tmp/');
 define('IS_PRODUCTION', Config::pick('general')['tier'] === 'prod');
 define('IS_HOME_PAGE', true);
 
-ways::listen("/profile/{username}", function($data, $args) {
+ways::listen("/{username}", function($data, $args) {
 
 	$person = Person::find($args['username']);
 
 	echo new div('profile', [
 		'profile' => $person
 	]);
+});
+
+ways::listen("/pizarra/{hash}", function($data, $args) {
+
+	$note = Database::queryFirst("SELECT * FROM _pizarra_notes WHERE hash = '{$args['hash']}';");
+
+
+	if ($note) {
+		$person = Person::find($note->id_person);
+		echo new div('note', [
+			'note' => $note,
+			'profile' => $person
+		]);
+	}
+
 });
 
 ways::bootstrap();
