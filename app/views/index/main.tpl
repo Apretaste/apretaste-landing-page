@@ -166,12 +166,12 @@
 <section id="download" class="spotlight style3 android invert orient-right content-align-left image-position-center">
 	<div class="content">
 		<h2>Descarga Apretaste</h2>
-		<p>¡Al fin llegó la hora! Descarga la app de Apretaste desde el Play Store o desde el Apple Store, o bien conéctate por la web y sé parte directa de la comunidad. Es todo un placer tenerte con nosotros.</p>
+		<p>¡Al fin llegó la hora! Descarga la app de Apretaste desde el Play Store o desde el Apple Store, o bien bájate el APK directamente. Es todo un placer tenerte con nosotros.</p>
 
 		<ul class="actions">
 			<li><a onclick="sendAnalyticsEvent('download_btn', 'android')" href="<?= getDownloadLink('android') ?>" target="_blank" class="button primary icon brands fa-android">Android</a></li>
 			<li><a onclick="sendAnalyticsEvent('download_btn', 'ios')" href="<?= getDownloadLink('ios') ?>" target="_blank" class="button primary icon brands fa-apple">iPhone</a></li>
-			<li><a onclick="sendAnalyticsEvent('download_btn', 'web')" href="https://app.apretaste.org/" target="_blank" class="button primary icon solid fa-globe">Versión Web</a></li>
+			<li><a onclick="sendAnalyticsEvent('download_btn', 'apk')" href="<?= getDownloadLink('apk') ?>" target="_blank" class="button secondary icon solid fa-download">APK (14MB)</a></li>
 		</ul>
 	</div>
 	<div class="image">
