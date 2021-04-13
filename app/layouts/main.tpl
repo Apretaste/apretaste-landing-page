@@ -160,12 +160,6 @@
 		<script src="/js/browser.min.js"></script>
 		<script src="/js/breakpoints.min.js"></script>
 		<script src="/js/main.js"></script>
-<!--
-		<script src="/js/jquery.min.js"></script>
-		<script src="/js/jquery.scrollex.min.js"></script>
-		<script src="/js/jquery.scrolly.min.js"></script>
-		<script src="/js/util.js"></script>
--->
 
 		<!-- google analytics -->
 		<?php if(IS_PRODUCTION) { ?>
