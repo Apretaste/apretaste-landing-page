@@ -16,3 +16,7 @@ secret=
 [mailers]
 key=
 lost_limit=
+
+[bucket]
+account=
+key=
