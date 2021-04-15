@@ -20,9 +20,6 @@ class Profile
 			exit;
 		}
 
-		// load the friends
-		$person->getFriends();
-
 		// get the person's avatar
 		$person->avatar = Bucket::path('avatars', "{$person->avatar}.png");
 		$person->avatarColor = Core::$avatarColors[$person->avatarColor];

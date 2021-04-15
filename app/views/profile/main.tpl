@@ -3,7 +3,7 @@
 		<h2 class="<?= $person->gender ?>">@<?= $person->username ?></h2>
 
 		<ul class="icons large">
-			<li><span class="icon solid fa-user-friends"> <?= count($person->friendList) ?></span></li>
+			<li><span class="icon solid fa-user-friends"> <?= $person->getFriendsCount() ?></span></li>
 			<li><span class="icon solid fa-bolt"></span> <?= number_format($person->experience) ?></li>
 		</ul>
 

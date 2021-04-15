@@ -14,9 +14,6 @@
 			<?php foreach ($reactions as $item) { ?>
 				<li style="color:<?= $reactionsColors[$item->reaction] ?>"><span class="icon solid <?= $reactionsIcons[$item->reaction] ?>"> <?= $item->cnt ?></span></li>
 			<?php } ?>
-			<?php if($note->reposts) { ?>
-				<li><span class="icon solid fa-sync-alt"></span> <?= $note->reposts ?></li>
-			<?php } ?>
 		</ul>
 
 		<?php if($note->text) { ?>
@@ -58,6 +55,12 @@
 
 	.spotlight .image {
 		background-color: white;
+	}
+
+	.article {
+		max-height: 200px;
+		display: block;
+		overflow: overlay;
 	}
 
 	.article div {
