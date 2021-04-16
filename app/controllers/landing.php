@@ -1,6 +1,6 @@
 <?php 
 
-use Framework\Database;
+use Apretaste\Database;
 
 class Landing 
 {

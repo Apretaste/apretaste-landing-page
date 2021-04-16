@@ -8,7 +8,7 @@ Descarga la app de las siguientes maneras:
 
 - Desde el Play Store o el Apple Store
 
-- Visitando http://tiny.cc/APCUBA (Android)
+- Visitando https://rebrand.ly/appcuba (Android)
 
 - Pídela al correo app7cuba@gmail.com (Android)
 

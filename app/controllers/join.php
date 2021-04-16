@@ -1,7 +1,7 @@
 <?php
 
 use Apretaste\Person;
-use Framework\Database;
+use Apretaste\Database;
 
 class Join 
 {

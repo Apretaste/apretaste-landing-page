@@ -1,18 +1,30 @@
 <?php
 
+use Apretaste\View;
+use Apretaste\Config;
+use Apretaste\Database;
 use Apretaste\WebRequest;
-use Framework\View;
-use Framework\Config;
-use Framework\Database;
 
 // localize timezone and dates
 setlocale(LC_TIME, "es_ES", 'Spanish_Spain', 'Spanish');
 date_default_timezone_set('America/Havana');
 
-// capture all errors
-set_error_handler(function($number, $string, $file, $line) {
-	throw new Exception($string);
-}, E_ALL);
+// ejecute when the script is done
+register_shutdown_function(static function(){
+	// check for the last error
+	$error = error_get_last();
+
+	// if there an error, take action
+	if ($error !== null && $error['type'] == E_ERROR) {
+		ob_clean();
+		echo '<h1>Error encontrado</h1>';
+		echo '<b>Lo siento, hemos encontrado un error, el equipo técnico está avisando.</p>';
+		echo '<pre>' . print_r($error, true) . '</pre>';
+	}
+
+	// close the database connection
+	Database::close();
+});
 
 // get page and action from the url
 $controller = isset($_GET['c']) ? $_GET['c'] : "index";
@@ -65,6 +77,3 @@ $page->$action();
 
 // render the view
 $page->view->render();
-
-// close the database connection
-Database::close();

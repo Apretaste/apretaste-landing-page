@@ -7,6 +7,16 @@
 	background-position: center center;
 }
 
+/* GENDER COLORS */
+
+.M {
+	color: #5c6bc0;
+}
+
+.F {
+	color: #ec407a;
+}
+
 /* BRANDS */
 
 #brands.gallery article .image {
@@ -109,3 +119,10 @@ input[type="submit"].primary:hover, input[type="reset"].primary:hover, input[typ
 	padding-left: 5px;
 }
 
+/* PHONE */
+
+@media screen and (max-width:736px) {
+	.align-center-phone {
+		text-align: center;
+	}
+}
