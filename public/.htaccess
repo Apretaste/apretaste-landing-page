@@ -4,7 +4,7 @@ ExpiresActive On
 RewriteBase /
 RewriteRule ^join/submit/?$ index.php?c=join&a=submit [L]
 RewriteRule ^join/(\w+)/?$ index.php?c=join&a=user&p=$1 [L]
-RewriteRule ^(\w+)/(\w+)/?$ index.php?c=$1&a=$2 [L]
+RewriteRule ^(\w+)/([\w\-]+)/?$ index.php?c=$1&a=$2 [L]
 RewriteRule ^(\w+)/?$ index.php?c=$1 [L]
 
 ExpiresByType image/jpg "access 1 year"

@@ -5,21 +5,21 @@ use Apretaste\Bucket;
 use Apretaste\Person;
 use Apretaste\Database;
 
-class Note
+class Post
 {
 	public function main()
 	{
 		// get the person's profile
-		$id = $this->request->get('a');
+		$hash = $this->request->get('a');
 
 		// get the note
 		$note = Database::queryFirst("
 			SELECT 
 				B.username, B.gender, B.avatar, B.avatarColor, 
-				A.text, A.image, A.reactions, A.article, A.inserted
+				A.id, A.text, A.image, A.reactions, A.article, A.inserted
 			FROM _pizarra_notes A JOIN person B
 			ON A.id_person = B.id
-			WHERE A.id = $id
+			WHERE A.hash = '$hash'
 			AND A.active = 1");
 
 		// if no person was passed, redirect to main page
@@ -32,7 +32,7 @@ class Note
 		$reactions = Database::query("
 			SELECT reaction, COUNT(reaction) as cnt
 			FROM _pizarra_reactions 
-			WHERE note = $id
+			WHERE note = {$note->id}
 			GROUP BY reaction");
 
 		// get the person
